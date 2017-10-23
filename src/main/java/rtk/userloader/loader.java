@@ -49,7 +49,7 @@ public class loader {
                         user.setLastname(arr[3]);
                         user.setThirdname(arr[3]);
                         user.setPassword(arr[2]);
-                        user.setSalt(arr[8]);
+                        user.setSalt(arr[7]);
                         user.setPhone(formatPhone(arr[5]));
                         user.setEmail(arr[4]);
                         user.setCreateDate(new Date());
