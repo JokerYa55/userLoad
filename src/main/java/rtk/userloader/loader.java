@@ -6,6 +6,7 @@
 package rtk.userloader;
 
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.FileInputStream;
 import java.io.InputStreamReader;
 import java.util.Arrays;
@@ -15,6 +16,7 @@ import javax.persistence.Persistence;
 import org.apache.log4j.Logger;
 import org.apache.log4j.Priority;
 import rtk.bean.TUsers;
+import java.io.*;
 
 /**
  *
@@ -31,12 +33,17 @@ public class loader {
         // TODO code application logic here
         log.info(Arrays.toString(args));
         if (args.length > 0) {
-            String filename = args[0];
-            log.info("filename => " + filename);
+            String filename_in = args[0];
+            String filename_out = args[1];
+            log.info("filename_in => " + filename_in);
+            log.info("filename_out => " + filename_out);
             TUsers user;
             try {
                 EntityManager em = Persistence.createEntityManagerFactory("rti_userLoader_JPA").createEntityManager();
-                BufferedReader bReader = new BufferedReader(new InputStreamReader(new FileInputStream(filename)));
+
+                BufferedReader bReader = new BufferedReader(new InputStreamReader(new FileInputStream(filename_in)));
+                BufferedWriter bWriter = new BufferedWriter(new FileWriter(filename_out));
+
                 String nextString;
                 while ((nextString = bReader.readLine()) != null) {
                     try {
@@ -54,17 +61,22 @@ public class loader {
                         user.setEmail(arr[4]);
                         user.setCreateDate(new Date());
                         user.setUserRegion(23);
+                        user.setHashType("md5");
 
                         em.merge(user);
                         em.getTransaction().commit();
                     } catch (Exception e1) {
                         log.log(Priority.ERROR, e1);
                         log.error("Ошибка => " + nextString);
+                        bWriter.write(nextString+"\n");
+                        bWriter.flush();
                     }
+                    //bReader.close();                    
+                    //bWriter.close();
                 }
             } catch (Exception e) {
                 log.log(Priority.ERROR, e);
-            }
+            } 
         }
     }
 
