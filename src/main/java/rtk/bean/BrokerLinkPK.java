@@ -12,10 +12,10 @@ import javax.persistence.Embeddable;
 
 /**
  *
- * @author vasiliy.andricov
+ * @author vasil
  */
 @Embeddable
-public class FederatedIdentityPK implements Serializable {
+public class BrokerLinkPK implements Serializable {
 
     @Basic(optional = false)
     @Column(name = "identity_provider")
@@ -24,10 +24,10 @@ public class FederatedIdentityPK implements Serializable {
     @Column(name = "user_id")
     private String userId;
 
-    public FederatedIdentityPK() {
+    public BrokerLinkPK() {
     }
 
-    public FederatedIdentityPK(String identityProvider, String userId) {
+    public BrokerLinkPK(String identityProvider, String userId) {
         this.identityProvider = identityProvider;
         this.userId = userId;
     }
@@ -59,10 +59,10 @@ public class FederatedIdentityPK implements Serializable {
     @Override
     public boolean equals(Object object) {
         // TODO: Warning - this method won't work in the case the id fields are not set
-        if (!(object instanceof FederatedIdentityPK)) {
+        if (!(object instanceof BrokerLinkPK)) {
             return false;
         }
-        FederatedIdentityPK other = (FederatedIdentityPK) object;
+        BrokerLinkPK other = (BrokerLinkPK) object;
         if ((this.identityProvider == null && other.identityProvider != null) || (this.identityProvider != null && !this.identityProvider.equals(other.identityProvider))) {
             return false;
         }
@@ -74,7 +74,7 @@ public class FederatedIdentityPK implements Serializable {
 
     @Override
     public String toString() {
-        return "rtk.bean.FederatedIdentityPK[ identityProvider=" + identityProvider + ", userId=" + userId + " ]";
+        return "rtk.bean.BrokerLinkPK[ identityProvider=" + identityProvider + ", userId=" + userId + " ]";
     }
     
 }

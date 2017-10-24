@@ -18,6 +18,8 @@ import org.apache.log4j.Priority;
 import rtk.bean.TUsers;
 import java.io.*;
 import rtk.DAO.TUsersDAO;
+import rtk.bean.BrokerLink;
+import rtk.bean.BrokerLinkPK;
 
 /**
  *
@@ -61,6 +63,9 @@ public class loader {
                             if (em.getTransaction().isActive()) {
                                 try {
                                     em.getTransaction().commit();
+                                    if (em1.getTransaction().isActive()) {
+                                        em1.getTransaction().commit();
+                                    }
                                 } catch (Exception e3) {
                                     log.log(Priority.ERROR, e3);
                                     temp.append("-------------------------------- err_line => ").append(err_line).append(" fileLine => ").append(i).append(" ------------------------------------------\n");
@@ -70,14 +75,20 @@ public class loader {
                                     err_line = 0;
                                     if (em.getTransaction().isActive()) {
                                         em.getTransaction().rollback();
+                                        if (em1.getTransaction().isActive()) {
+                                            em1.getTransaction().rollback();
+                                        }
                                         em.getTransaction().begin();
+                                        em1.getTransaction().begin();
                                     }
                                     i++;
                                 }
+
                             }
                             err_line = 0;
                             temp.delete(0, Integer.MAX_VALUE);
                             em.getTransaction().begin();
+                            em1.getTransaction().begin();
                         }
                         temp.append(nextString).append("\n");
                         String[] arr = nextString.split(";", -1);
@@ -93,15 +104,26 @@ public class loader {
                         user.setEmail(arr[1]);
                         user.setCreateDate(new Date());
                         user.setUserRegion(Integer.parseInt(arr[9]));
+                        user.setEnabled(true);
                         user.setHashType("sha1");
                         user.setDescription("<ELK_ADD>");
                         try {
-                            em.merge(user);                            
+                            em.merge(user);
                             // Добавляем ссылку на провайдер
                             // Получаем ID пользователя
                             TUsersDAO userDAO = new TUsersDAO(em);
                             user = userDAO.getItemByName(user.getUsername(), "TUsers.findByUsername");
                             log.debug(user);
+                            BrokerLinkPK pk = new BrokerLinkPK("oidc_kk", "f:626ec05d-ce21-464f-b0d6-29f811218ea9:" + user.getId().toString());
+                            BrokerLink link = new BrokerLink();
+                            link.setBrokerUsername(user.getUsername());
+                            link.setStorageProviderId("626ec05d-ce21-464f-b0d6-29f811218ea9");
+                            link.setBrokerLinkPK(pk);
+                            link.setRealmId("videomanager");
+                            link.setBrokerUserId(arr[0]);
+
+                            em1.merge(link);
+
                         } catch (Exception e2) {
                             log.log(Priority.ERROR, e2);
                             temp.append("-------------------------------- err_line => ").append(err_line).append(" fileLine => ").append(i).append(" ------------------------------------------\n");
@@ -111,7 +133,11 @@ public class loader {
                             err_line = 0;
                             if (em.getTransaction().isActive()) {
                                 em.getTransaction().rollback();
+                                if (em1.getTransaction().isActive()) {
+                                    em1.getTransaction().rollback();
+                                }
                                 em.getTransaction().begin();
+                                em1.getTransaction().begin();
                             }
                             i++;
                         }
