@@ -35,19 +35,9 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <module.appname>userLoader</module.appname>
     </properties>
-     <build>
+    <build>
         <finalName>${module.appname}</finalName>
         <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.6.1</version>
-                <configuration>
-                    <source>${maven.compiler.source}</source>
-                    <target>${maven.compiler.target}</target>
-                </configuration>
-            </plugin>
-            
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-javadoc-plugin</artifactId>
@@ -91,6 +81,6 @@
                 </executions>
             </plugin>
         </plugins>
-    </build>
+    </build> 
     
 </project>

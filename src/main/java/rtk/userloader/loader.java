@@ -83,7 +83,6 @@ public class loader {
                                     }
                                     i++;
                                 }
-
                             }
                             err_line = 0;
                             temp.delete(0, Integer.MAX_VALUE);
