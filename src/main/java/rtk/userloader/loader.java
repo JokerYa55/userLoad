@@ -17,6 +17,7 @@ import org.apache.log4j.Logger;
 import org.apache.log4j.Priority;
 import rtk.bean.TUsers;
 import java.io.*;
+import rtk.DAO.TUsersDAO;
 
 /**
  *
@@ -48,10 +49,11 @@ public class loader {
                 String nextString;
                 long i = 0;
                 long err_line = 0;
+                long commit_count = Long.parseLong(args[2]);
                 StringBuilder temp = new StringBuilder();
                 while ((nextString = bReader.readLine()) != null) {
                     try {
-                        long rez = (long) i % 100;
+                        long rez = (long) i % commit_count;
                         err_line++;
                         //rez = (long) Math.floor(i / 5);
                         if (rez == 0) {
@@ -92,9 +94,14 @@ public class loader {
                         user.setCreateDate(new Date());
                         user.setUserRegion(Integer.parseInt(arr[9]));
                         user.setHashType("sha1");
+                        user.setDescription("<ELK_ADD>");
                         try {
-                            //em.merge(user);
+                            em.merge(user);                            
                             // Добавляем ссылку на провайдер
+                            // Получаем ID пользователя
+                            TUsersDAO userDAO = new TUsersDAO(em);
+                            user = userDAO.getItemByName(user.getUsername(), "TUsers.findByUsername");
+                            log.debug(user);
                         } catch (Exception e2) {
                             log.log(Priority.ERROR, e2);
                             temp.append("-------------------------------- err_line => ").append(err_line).append(" fileLine => ").append(i).append(" ------------------------------------------\n");

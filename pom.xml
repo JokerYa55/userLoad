@@ -64,8 +64,8 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>rtk.eip_sheduler.sheduler.shedulerMain</mainClass>
-                            <packageName>rtk.eip_sheduler.sheduler</packageName>
+                            <mainClass>rtk.userloader.loader</mainClass>
+                            <packageName>rtk.userloader</packageName>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
                         </manifest>

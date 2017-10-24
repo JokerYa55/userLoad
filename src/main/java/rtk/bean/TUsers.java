@@ -254,7 +254,9 @@ public class TUsers implements Serializable {
 
     @Override
     public String toString() {
-        return "rtk.bean.TUsers[ id=" + id + " ]";
+        return "TUsers{" + "id=" + id + ", firstname=" + firstname + ", lastname=" + lastname + ", thirdname=" + thirdname + ", username=" + username + '}';
     }
+
+    
 
 }
