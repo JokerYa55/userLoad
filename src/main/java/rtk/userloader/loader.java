@@ -40,6 +40,7 @@ public class loader {
             TUsers user;
             try {
                 EntityManager em = Persistence.createEntityManagerFactory("rti_userLoader_JPA").createEntityManager();
+                EntityManager em1 = Persistence.createEntityManagerFactory("rti_userLoader_KK_JPA").createEntityManager();
 
                 BufferedReader bReader = new BufferedReader(new InputStreamReader(new FileInputStream(filename_in)));
                 BufferedWriter bWriter = new BufferedWriter(new FileWriter(filename_out));
@@ -92,7 +93,7 @@ public class loader {
                         user.setUserRegion(23);
                         user.setHashType("md5");
                         try {
-                            em.merge(user);
+                            //em.merge(user);
                         } catch (Exception e2) {
                             log.log(Priority.ERROR, e2);
                             temp.append("-------------------------------- err_line => ").append(err_line).append(" fileLine => ").append(i).append(" ------------------------------------------\n");
