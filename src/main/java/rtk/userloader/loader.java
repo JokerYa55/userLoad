@@ -27,7 +27,7 @@ public class loader {
     /**
      * @param args the command line arguments
      */
-    private static Logger log = Logger.getLogger(loader.class.getName());
+    private static final Logger log = Logger.getLogger(loader.class.getName());
 
     public static void main(String[] args) {
         // TODO code application logic here
@@ -50,7 +50,7 @@ public class loader {
                 StringBuilder temp = new StringBuilder();
                 while ((nextString = bReader.readLine()) != null) {
                     try {
-                        long rez = (long) i % 20;
+                        long rez = (long) i % 100;
                         err_line++;
                         //rez = (long) Math.floor(i / 5);
                         if (rez == 0) {
@@ -60,7 +60,7 @@ public class loader {
                                     em.getTransaction().commit();
                                 } catch (Exception e3) {
                                     log.log(Priority.ERROR, e3);
-                                    temp.append("-------------------------------- err_line => " + err_line + " fileLine => " + i + " ------------------------------------------\n");
+                                    temp.append("-------------------------------- err_line => ").append(err_line).append(" fileLine => ").append(i).append(" ------------------------------------------\n");
                                     bWriter.write(temp.toString() + "\n");
                                     bWriter.flush();
                                     temp = new StringBuilder();
@@ -76,7 +76,7 @@ public class loader {
                             temp.delete(0, Integer.MAX_VALUE);
                             em.getTransaction().begin();
                         }
-                        temp.append(nextString + "\n");
+                        temp.append(nextString).append("\n");
                         String[] arr = nextString.split(";", -1);
                         //log.info(Arrays.toString(arr));
                         user = new TUsers();
@@ -95,7 +95,7 @@ public class loader {
                             em.merge(user);
                         } catch (Exception e2) {
                             log.log(Priority.ERROR, e2);
-                            temp.append("-------------------------------- err_line => " + err_line + " fileLine => " + i + " ------------------------------------------\n");
+                            temp.append("-------------------------------- err_line => ").append(err_line).append(" fileLine => ").append(i).append(" ------------------------------------------\n");
                             bWriter.write(temp.toString() + "\n");
                             bWriter.flush();
                             temp = new StringBuilder();
@@ -107,7 +107,7 @@ public class loader {
                             i++;
                         }
                         i++;
-                    } catch (Exception e1) {
+                    } catch (IOException e1) {
                         log.log(Priority.ERROR, e1);
                         log.error("Ошибка => " + nextString);
                         e1.printStackTrace();

@@ -10,7 +10,7 @@
                 <goal>org.codehaus.mojo:exec-maven-plugin:1.2.1:exec</goal>
             </goals>
             <properties>
-                <exec.args>-classpath %classpath ${packageClassName} C:\backup\11.csv C:\backup\out.log</exec.args>
+                <exec.args>-classpath %classpath rtk.userloader.loader C:\backup\11.csv C:\backup\out.log</exec.args>
                 <exec.executable>java</exec.executable>
                 <exec.workingdir></exec.workingdir>
             </properties>
