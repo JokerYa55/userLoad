@@ -94,6 +94,7 @@ public class loader {
                         user.setHashType("md5");
                         try {
                             //em.merge(user);
+                            // Добавляем ссылку на провайдер
                         } catch (Exception e2) {
                             log.log(Priority.ERROR, e2);
                             temp.append("-------------------------------- err_line => ").append(err_line).append(" fileLine => ").append(i).append(" ------------------------------------------\n");
