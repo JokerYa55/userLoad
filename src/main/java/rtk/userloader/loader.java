@@ -45,9 +45,38 @@ public class loader {
                 BufferedWriter bWriter = new BufferedWriter(new FileWriter(filename_out));
 
                 String nextString;
+                long i = 0;
+                long err_line = 0;
+                StringBuilder temp = new StringBuilder();
                 while ((nextString = bReader.readLine()) != null) {
                     try {
-                        em.getTransaction().begin();
+                        long rez = (long) i % 20;
+                        err_line++;
+                        //rez = (long) Math.floor(i / 5);
+                        if (rez == 0) {
+                            log.info("commit transaction i= " + i);
+                            if (em.getTransaction().isActive()) {
+                                try {
+                                    em.getTransaction().commit();
+                                } catch (Exception e3) {
+                                    log.log(Priority.ERROR, e3);
+                                    temp.append("-------------------------------- err_line => " + err_line + " fileLine => " + i + " ------------------------------------------\n");
+                                    bWriter.write(temp.toString() + "\n");
+                                    bWriter.flush();
+                                    temp = new StringBuilder();
+                                    err_line = 0;
+                                    if (em.getTransaction().isActive()) {
+                                        em.getTransaction().rollback();
+                                        em.getTransaction().begin();
+                                    }
+                                    i++;
+                                }
+                            }
+                            err_line = 0;
+                            temp.delete(0, Integer.MAX_VALUE);
+                            em.getTransaction().begin();
+                        }
+                        temp.append(nextString + "\n");
                         String[] arr = nextString.split(";", -1);
                         //log.info(Arrays.toString(arr));
                         user = new TUsers();
@@ -62,21 +91,35 @@ public class loader {
                         user.setCreateDate(new Date());
                         user.setUserRegion(23);
                         user.setHashType("md5");
-
-                        em.merge(user);
-                        em.getTransaction().commit();
+                        try {
+                            em.merge(user);
+                        } catch (Exception e2) {
+                            log.log(Priority.ERROR, e2);
+                            temp.append("-------------------------------- err_line => " + err_line + " fileLine => " + i + " ------------------------------------------\n");
+                            bWriter.write(temp.toString() + "\n");
+                            bWriter.flush();
+                            temp = new StringBuilder();
+                            err_line = 0;
+                            if (em.getTransaction().isActive()) {
+                                em.getTransaction().rollback();
+                                em.getTransaction().begin();
+                            }
+                            i++;
+                        }
+                        i++;
                     } catch (Exception e1) {
                         log.log(Priority.ERROR, e1);
                         log.error("Ошибка => " + nextString);
-                        bWriter.write(nextString+"\n");
-                        bWriter.flush();
+                        e1.printStackTrace();
                     }
-                    //bReader.close();                    
-                    //bWriter.close();
+
+                }
+                if (em.getTransaction().isActive()) {
+                    em.getTransaction().commit();
                 }
             } catch (Exception e) {
                 log.log(Priority.ERROR, e);
-            } 
+            }
         }
     }
 
