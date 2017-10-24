@@ -82,16 +82,16 @@ public class loader {
                         //log.info(Arrays.toString(arr));
                         user = new TUsers();
                         user.setUsername(arr[3]);
-                        user.setFirstname(arr[3]);
-                        user.setLastname(arr[3]);
-                        user.setThirdname(arr[3]);
-                        user.setPassword(arr[2]);
-                        user.setSalt(arr[7]);
-                        user.setPhone(formatPhone(arr[5]));
-                        user.setEmail(arr[4]);
+                        user.setFirstname(arr[4]);
+                        user.setLastname(arr[5]);
+                        user.setThirdname(arr[6]);
+                        user.setPassword(arr[7]);
+                        user.setSalt(arr[8]);
+                        user.setPhone(formatPhone(arr[2]));
+                        user.setEmail(arr[1]);
                         user.setCreateDate(new Date());
-                        user.setUserRegion(23);
-                        user.setHashType("md5");
+                        user.setUserRegion(Integer.parseInt(arr[9]));
+                        user.setHashType("sha1");
                         try {
                             //em.merge(user);
                             // Добавляем ссылку на провайдер

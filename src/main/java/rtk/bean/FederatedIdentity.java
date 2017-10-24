@@ -107,10 +107,7 @@ public class FederatedIdentity implements Serializable {
             return false;
         }
         FederatedIdentity other = (FederatedIdentity) object;
-        if ((this.federatedIdentityPK == null && other.federatedIdentityPK != null) || (this.federatedIdentityPK != null && !this.federatedIdentityPK.equals(other.federatedIdentityPK))) {
-            return false;
-        }
-        return true;
+        return !((this.federatedIdentityPK == null && other.federatedIdentityPK != null) || (this.federatedIdentityPK != null && !this.federatedIdentityPK.equals(other.federatedIdentityPK)));
     }
 
     @Override
