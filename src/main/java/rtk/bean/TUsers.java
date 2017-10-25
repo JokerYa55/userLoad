@@ -52,16 +52,14 @@ import javax.xml.bind.annotation.XmlTransient;
     , @NamedQuery(name = "TUsers.findByUsername", query = "SELECT t FROM TUsers t WHERE t.username = :username")})
 public class TUsers implements Serializable {
 
-    @OneToMany(cascade = CascadeType.ALL, mappedBy = "userId")
-    private Collection<TUserAttribute> tUserAttributeCollection;
-
     private static final long serialVersionUID = 1L;
     @Id
     @Basic(optional = false)
-    @Column(name = "id")
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "t_users_id_seq")
     @SequenceGenerator(name = "t_users_id_seq", sequenceName = "t_users_id_seq", allocationSize = 1)
+    @Column(name = "id")
     private Long id;
+    @Basic(optional = false)
     @Column(name = "create_date")
     @Temporal(TemporalType.TIMESTAMP)
     private Date createDate;
@@ -69,6 +67,7 @@ public class TUsers implements Serializable {
     private String description;
     @Column(name = "email")
     private String email;
+    @Basic(optional = false)
     @Column(name = "enabled")
     private boolean enabled;
     @Column(name = "firstname")
@@ -90,11 +89,14 @@ public class TUsers implements Serializable {
     private Date updateDate;
     @Column(name = "user_region")
     private Integer userRegion;
+    @Basic(optional = false)
     @Column(name = "user_status")
     private int userStatus;
     @Basic(optional = false)
     @Column(name = "username")
     private String username;
+    @OneToMany(cascade = CascadeType.ALL, mappedBy = "userId")
+    private Collection<TUserAttribute> tUserAttributeCollection;
 
     public TUsers() {
     }
@@ -239,6 +241,15 @@ public class TUsers implements Serializable {
         this.username = username;
     }
 
+    @XmlTransient
+    public Collection<TUserAttribute> getTUserAttributeCollection() {
+        return tUserAttributeCollection;
+    }
+
+    public void setTUserAttributeCollection(Collection<TUserAttribute> tUserAttributeCollection) {
+        this.tUserAttributeCollection = tUserAttributeCollection;
+    }
+
     @Override
     public int hashCode() {
         int hash = 0;
@@ -261,18 +272,7 @@ public class TUsers implements Serializable {
 
     @Override
     public String toString() {
-        return "TUsers{" + "id=" + id + ", firstname=" + firstname + ", lastname=" + lastname + ", thirdname=" + thirdname + ", username=" + username + '}';
+        return "rtk.bean.TUsers[ id=" + id + " ]";
     }
-
-    @XmlTransient
-    public Collection<TUserAttribute> getTUserAttributeCollection() {
-        return tUserAttributeCollection;
-    }
-
-    public void setTUserAttributeCollection(Collection<TUserAttribute> tUserAttributeCollection) {
-        this.tUserAttributeCollection = tUserAttributeCollection;
-    }
-
     
-
 }
