@@ -1,0 +1,2208 @@
+2017-10-25 19:11:37,254  INFO main loader:main:56 - [C:\backup\44.csv, C:\backup\out.log, 1000, oidc_kk, 626ec05d-ce21-464f-b0d6-29f811218ea9, videomanager]
+2017-10-25 19:11:37,255  INFO main loader:main:60 - filename_in => C:\backup\44.csv
+2017-10-25 19:11:37,256  INFO main loader:main:61 - filename_out => C:\backup\out.log
+2017-10-25 19:11:38,432  INFO main loader:main:78 - commit_count => 1000
+2017-10-25 19:11:38,432  INFO main loader:main:79 - identityProvider => oidc_kk
+2017-10-25 19:11:38,432  INFO main loader:main:80 - storageProviderID => 626ec05d-ce21-464f-b0d6-29f811218ea9
+2017-10-25 19:11:38,433  INFO main loader:main:81 - realmID => videomanager
+2017-10-25 19:11:38,433  INFO main loader:main:92 - commit transaction i= 0
+2017-10-25 19:11:38,581 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:38,608 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:38,626 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:38,641 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:38,667 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:38,685 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:38,702 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:38,715 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:38,729 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:38,741 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:38,753 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:38,764 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:38,775 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:38,786 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:38,797 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:38,808 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:38,827 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:38,846 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:38,860 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:38,871 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:38,885 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:38,897 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:38,912 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:38,925 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:38,937 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:38,948 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:38,958 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:38,968 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:38,979 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:38,990 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,001 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,013 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,028 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,049 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,062 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,075 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,087 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,098 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,110 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,120 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,130 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,139 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,150 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,159 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,169 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,180 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,192 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,203 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,215 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,227 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,241 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,252 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,263 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,273 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,283 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,293 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,305 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,316 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,326 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,336 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,347 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,356 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,366 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,376 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,389 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,401 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,414 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,427 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,441 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,453 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,464 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,477 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,488 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,498 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,508 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,517 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,527 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,537 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,547 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,557 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,568 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,578 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,590 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,600 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,611 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,623 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,634 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,646 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,657 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,667 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,676 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,686 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,706 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,716 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,726 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,735 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,743 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,753 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,764 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,774 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,784 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,793 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,804 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,812 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,822 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,835 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,848 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,860 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,870 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,879 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,887 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,897 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,907 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,917 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,927 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,936 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,946 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,956 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,965 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,975 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,984 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:39,995 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,004 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,014 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,024 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,034 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,046 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,058 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,068 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,078 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,087 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,097 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,107 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,115 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,124 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,134 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,142 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,152 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,161 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,170 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,179 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,187 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,197 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,208 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,217 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,227 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,236 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,245 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,258 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,268 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,277 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,286 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,294 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,304 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,313 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,322 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,331 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,341 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,350 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,358 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,367 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,377 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,386 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,395 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,404 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,414 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,441 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,451 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,462 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,472 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,482 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,492 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,501 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,510 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,519 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,529 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,537 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,545 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,555 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,563 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,573 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,581 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,591 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,601 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,611 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,621 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,630 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,640 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,649 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,661 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,672 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,683 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,693 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,703 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,712 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,721 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,729 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,739 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,764 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,772 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,781 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,791 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,800 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,811 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,821 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,830 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,842 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,854 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,866 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,876 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,885 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,894 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,903 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,914 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,937 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,948 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,957 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,967 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,976 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,985 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:40,995 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,004 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,013 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,021 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,030 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,039 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,048 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,060 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,069 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,080 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,090 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,101 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,111 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,120 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,130 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,139 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,148 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,156 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,165 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,174 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,183 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,193 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,202 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,210 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,220 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,228 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,238 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,247 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,257 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,269 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,279 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,289 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,303 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,313 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,324 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,334 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,347 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,356 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,366 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,375 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,383 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,394 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,402 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,411 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,422 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,431 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,439 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,449 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,460 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,471 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,479 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,488 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,497 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,507 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,517 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,526 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,536 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,546 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,556 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,565 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,574 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,581 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,591 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,600 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,609 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,617 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,626 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,634 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,644 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,653 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,664 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,673 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,683 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,692 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,701 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,710 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,720 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,729 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,739 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,748 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,757 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,767 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,775 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,785 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,793 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,802 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,812 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,820 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,829 ERROR main loader:main:167 - Exception [EclipseLink-4002] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: org.postgresql.util.PSQLException: ERROR: current transaction is aborted, commands ignored until end of transaction block
+Error Code: 0
+Call: select nextval('t_user_attribute_id_seq')
+Query: ValueReadQuery(sql="select nextval('t_user_attribute_id_seq')")
+2017-10-25 19:11:41,829 ERROR main loader:main:195 - java.lang.NumberFormatException: For input string: ""
+2017-10-25 19:14:24,953  INFO main loader:main:56 - [C:\backup\44.csv, C:\backup\out.log, 1000, oidc_kk, 626ec05d-ce21-464f-b0d6-29f811218ea9, videomanager]
+2017-10-25 19:14:24,955  INFO main loader:main:60 - filename_in => C:\backup\44.csv
+2017-10-25 19:14:24,955  INFO main loader:main:61 - filename_out => C:\backup\out.log
+2017-10-25 19:14:25,943  INFO main loader:main:78 - commit_count => 1000
+2017-10-25 19:14:25,943  INFO main loader:main:79 - identityProvider => oidc_kk
+2017-10-25 19:14:25,943  INFO main loader:main:80 - storageProviderID => 626ec05d-ce21-464f-b0d6-29f811218ea9
+2017-10-25 19:14:25,944  INFO main loader:main:81 - realmID => videomanager
+2017-10-25 19:14:25,944  INFO main loader:main:92 - commit transaction i= 0
+2017-10-25 19:14:27,339 ERROR main loader:main:195 - java.lang.NumberFormatException: For input string: ""
+2017-10-25 19:16:27,615  INFO main loader:main:56 - [C:\backup\44.csv, C:\backup\out.log, 1000, oidc_kk, 626ec05d-ce21-464f-b0d6-29f811218ea9, videomanager]
+2017-10-25 19:16:32,869  INFO main loader:main:60 - filename_in => C:\backup\44.csv
+2017-10-25 19:16:33,288  INFO main loader:main:61 - filename_out => C:\backup\out.log
+2017-10-25 19:17:05,252  INFO main loader:main:78 - commit_count => 1000
+2017-10-25 19:17:05,661  INFO main loader:main:79 - identityProvider => oidc_kk
+2017-10-25 19:17:05,879  INFO main loader:main:80 - storageProviderID => 626ec05d-ce21-464f-b0d6-29f811218ea9
+2017-10-25 19:17:06,137  INFO main loader:main:81 - realmID => videomanager
+2017-10-25 19:17:15,782  INFO main loader:main:92 - commit transaction i= 0
+2017-10-25 19:19:48,855  INFO main loader:main:56 - [C:\backup\44.csv, C:\backup\out.log, 1000, oidc_kk, 626ec05d-ce21-464f-b0d6-29f811218ea9, videomanager]
+2017-10-25 19:19:48,856  INFO main loader:main:60 - filename_in => C:\backup\44.csv
+2017-10-25 19:19:48,856  INFO main loader:main:61 - filename_out => C:\backup\out.log
+2017-10-25 19:19:49,865  INFO main loader:main:78 - commit_count => 1000
+2017-10-25 19:19:49,866  INFO main loader:main:79 - identityProvider => oidc_kk
+2017-10-25 19:19:49,866  INFO main loader:main:80 - storageProviderID => 626ec05d-ce21-464f-b0d6-29f811218ea9
+2017-10-25 19:19:49,866  INFO main loader:main:81 - realmID => videomanager
+2017-10-25 19:19:49,866  INFO main loader:main:88 - i => 0
+2017-10-25 19:19:49,867  INFO main loader:main:93 - commit transaction i= 0
+2017-10-25 19:19:49,941  INFO main loader:main:88 - i => 1
+2017-10-25 19:19:49,949  INFO main loader:main:88 - i => 2
+2017-10-25 19:19:49,953  INFO main loader:main:88 - i => 3
+2017-10-25 19:19:49,960  INFO main loader:main:88 - i => 4
+2017-10-25 19:19:49,967  INFO main loader:main:88 - i => 5
+2017-10-25 19:19:49,973  INFO main loader:main:88 - i => 6
+2017-10-25 19:19:49,978  INFO main loader:main:88 - i => 7
+2017-10-25 19:19:49,982  INFO main loader:main:88 - i => 8
+2017-10-25 19:19:49,986  INFO main loader:main:88 - i => 9
+2017-10-25 19:19:49,991  INFO main loader:main:88 - i => 10
+2017-10-25 19:19:49,996  INFO main loader:main:88 - i => 11
+2017-10-25 19:19:50,000  INFO main loader:main:88 - i => 12
+2017-10-25 19:19:50,005  INFO main loader:main:88 - i => 13
+2017-10-25 19:19:50,010  INFO main loader:main:88 - i => 14
+2017-10-25 19:19:50,015  INFO main loader:main:88 - i => 15
+2017-10-25 19:19:50,020  INFO main loader:main:88 - i => 16
+2017-10-25 19:19:50,025  INFO main loader:main:88 - i => 17
+2017-10-25 19:19:50,030  INFO main loader:main:88 - i => 18
+2017-10-25 19:19:50,034  INFO main loader:main:88 - i => 19
+2017-10-25 19:19:50,039  INFO main loader:main:88 - i => 20
+2017-10-25 19:19:50,044  INFO main loader:main:88 - i => 21
+2017-10-25 19:19:50,049  INFO main loader:main:88 - i => 22
+2017-10-25 19:19:50,053  INFO main loader:main:88 - i => 23
+2017-10-25 19:19:50,058  INFO main loader:main:88 - i => 24
+2017-10-25 19:19:50,064  INFO main loader:main:88 - i => 25
+2017-10-25 19:19:50,070  INFO main loader:main:88 - i => 26
+2017-10-25 19:19:50,076  INFO main loader:main:88 - i => 27
+2017-10-25 19:19:50,083  INFO main loader:main:88 - i => 28
+2017-10-25 19:19:50,088  INFO main loader:main:88 - i => 29
+2017-10-25 19:19:50,093  INFO main loader:main:88 - i => 30
+2017-10-25 19:19:50,096  INFO main loader:main:88 - i => 31
+2017-10-25 19:19:50,102  INFO main loader:main:88 - i => 32
+2017-10-25 19:19:50,105  INFO main loader:main:88 - i => 33
+2017-10-25 19:19:50,110  INFO main loader:main:88 - i => 34
+2017-10-25 19:19:50,115  INFO main loader:main:88 - i => 35
+2017-10-25 19:19:50,120  INFO main loader:main:88 - i => 36
+2017-10-25 19:19:50,124  INFO main loader:main:88 - i => 37
+2017-10-25 19:19:50,129  INFO main loader:main:88 - i => 38
+2017-10-25 19:19:50,133  INFO main loader:main:88 - i => 39
+2017-10-25 19:19:50,139  INFO main loader:main:88 - i => 40
+2017-10-25 19:19:50,142  INFO main loader:main:88 - i => 41
+2017-10-25 19:19:50,147  INFO main loader:main:88 - i => 42
+2017-10-25 19:19:50,152  INFO main loader:main:88 - i => 43
+2017-10-25 19:19:50,157  INFO main loader:main:88 - i => 44
+2017-10-25 19:19:50,163  INFO main loader:main:88 - i => 45
+2017-10-25 19:19:50,167  INFO main loader:main:88 - i => 46
+2017-10-25 19:19:50,172  INFO main loader:main:88 - i => 47
+2017-10-25 19:19:50,176  INFO main loader:main:88 - i => 48
+2017-10-25 19:19:50,181  INFO main loader:main:88 - i => 49
+2017-10-25 19:19:50,185  INFO main loader:main:88 - i => 50
+2017-10-25 19:19:50,188  INFO main loader:main:88 - i => 51
+2017-10-25 19:19:50,192  INFO main loader:main:88 - i => 52
+2017-10-25 19:19:50,196  INFO main loader:main:88 - i => 53
+2017-10-25 19:19:50,200  INFO main loader:main:88 - i => 54
+2017-10-25 19:19:50,204  INFO main loader:main:88 - i => 55
+2017-10-25 19:19:50,208  INFO main loader:main:88 - i => 56
+2017-10-25 19:19:50,212  INFO main loader:main:88 - i => 57
+2017-10-25 19:19:50,216  INFO main loader:main:88 - i => 58
+2017-10-25 19:19:50,221  INFO main loader:main:88 - i => 59
+2017-10-25 19:19:50,224  INFO main loader:main:88 - i => 60
+2017-10-25 19:19:50,229  INFO main loader:main:88 - i => 61
+2017-10-25 19:19:50,233  INFO main loader:main:88 - i => 62
+2017-10-25 19:19:50,237  INFO main loader:main:88 - i => 63
+2017-10-25 19:19:50,242  INFO main loader:main:88 - i => 64
+2017-10-25 19:19:50,248  INFO main loader:main:88 - i => 65
+2017-10-25 19:19:50,253  INFO main loader:main:88 - i => 66
+2017-10-25 19:19:50,258  INFO main loader:main:88 - i => 67
+2017-10-25 19:19:50,263  INFO main loader:main:88 - i => 68
+2017-10-25 19:19:50,267  INFO main loader:main:88 - i => 69
+2017-10-25 19:19:50,273  INFO main loader:main:88 - i => 70
+2017-10-25 19:19:50,279  INFO main loader:main:88 - i => 71
+2017-10-25 19:19:50,286  INFO main loader:main:88 - i => 72
+2017-10-25 19:19:50,294  INFO main loader:main:88 - i => 73
+2017-10-25 19:19:50,302  INFO main loader:main:88 - i => 74
+2017-10-25 19:19:50,308  INFO main loader:main:88 - i => 75
+2017-10-25 19:19:50,314  INFO main loader:main:88 - i => 76
+2017-10-25 19:19:50,318  INFO main loader:main:88 - i => 77
+2017-10-25 19:19:50,324  INFO main loader:main:88 - i => 78
+2017-10-25 19:19:50,330  INFO main loader:main:88 - i => 79
+2017-10-25 19:19:50,335  INFO main loader:main:88 - i => 80
+2017-10-25 19:19:50,342  INFO main loader:main:88 - i => 81
+2017-10-25 19:19:50,347  INFO main loader:main:88 - i => 82
+2017-10-25 19:19:50,351  INFO main loader:main:88 - i => 83
+2017-10-25 19:19:50,355  INFO main loader:main:88 - i => 84
+2017-10-25 19:19:50,358  INFO main loader:main:88 - i => 85
+2017-10-25 19:19:50,364  INFO main loader:main:88 - i => 86
+2017-10-25 19:19:50,368  INFO main loader:main:88 - i => 87
+2017-10-25 19:19:50,373  INFO main loader:main:88 - i => 88
+2017-10-25 19:19:50,376  INFO main loader:main:88 - i => 89
+2017-10-25 19:19:50,379  INFO main loader:main:88 - i => 90
+2017-10-25 19:19:50,383  INFO main loader:main:88 - i => 91
+2017-10-25 19:19:50,386  INFO main loader:main:88 - i => 92
+2017-10-25 19:19:50,390  INFO main loader:main:88 - i => 93
+2017-10-25 19:19:50,394  INFO main loader:main:88 - i => 94
+2017-10-25 19:19:50,398  INFO main loader:main:88 - i => 95
+2017-10-25 19:19:50,401  INFO main loader:main:88 - i => 96
+2017-10-25 19:19:50,405  INFO main loader:main:88 - i => 97
+2017-10-25 19:19:50,410  INFO main loader:main:88 - i => 98
+2017-10-25 19:19:50,413  INFO main loader:main:88 - i => 99
+2017-10-25 19:19:50,417  INFO main loader:main:88 - i => 100
+2017-10-25 19:19:50,421  INFO main loader:main:88 - i => 101
+2017-10-25 19:19:50,425  INFO main loader:main:88 - i => 102
+2017-10-25 19:19:50,430  INFO main loader:main:88 - i => 103
+2017-10-25 19:19:50,433  INFO main loader:main:88 - i => 104
+2017-10-25 19:19:50,437  INFO main loader:main:88 - i => 105
+2017-10-25 19:19:50,442  INFO main loader:main:88 - i => 106
+2017-10-25 19:19:50,447  INFO main loader:main:88 - i => 107
+2017-10-25 19:19:50,452  INFO main loader:main:88 - i => 108
+2017-10-25 19:19:50,457  INFO main loader:main:88 - i => 109
+2017-10-25 19:19:50,462  INFO main loader:main:88 - i => 110
+2017-10-25 19:19:50,467  INFO main loader:main:88 - i => 111
+2017-10-25 19:19:50,472  INFO main loader:main:88 - i => 112
+2017-10-25 19:19:50,478  INFO main loader:main:88 - i => 113
+2017-10-25 19:19:50,484  INFO main loader:main:88 - i => 114
+2017-10-25 19:19:50,489  INFO main loader:main:88 - i => 115
+2017-10-25 19:19:50,493  INFO main loader:main:88 - i => 116
+2017-10-25 19:19:50,497  INFO main loader:main:88 - i => 117
+2017-10-25 19:19:50,501  INFO main loader:main:88 - i => 118
+2017-10-25 19:19:50,506  INFO main loader:main:88 - i => 119
+2017-10-25 19:19:50,510  INFO main loader:main:88 - i => 120
+2017-10-25 19:19:50,514  INFO main loader:main:88 - i => 121
+2017-10-25 19:19:50,518  INFO main loader:main:88 - i => 122
+2017-10-25 19:19:50,522  INFO main loader:main:88 - i => 123
+2017-10-25 19:19:50,526  INFO main loader:main:88 - i => 124
+2017-10-25 19:19:50,531  INFO main loader:main:88 - i => 125
+2017-10-25 19:19:50,535  INFO main loader:main:88 - i => 126
+2017-10-25 19:19:50,539  INFO main loader:main:88 - i => 127
+2017-10-25 19:19:50,544  INFO main loader:main:88 - i => 128
+2017-10-25 19:19:50,549  INFO main loader:main:88 - i => 129
+2017-10-25 19:19:50,553  INFO main loader:main:88 - i => 130
+2017-10-25 19:19:50,557  INFO main loader:main:88 - i => 131
+2017-10-25 19:19:50,561  INFO main loader:main:88 - i => 132
+2017-10-25 19:19:50,564  INFO main loader:main:88 - i => 133
+2017-10-25 19:19:50,568  INFO main loader:main:88 - i => 134
+2017-10-25 19:19:50,572  INFO main loader:main:88 - i => 135
+2017-10-25 19:19:50,574  INFO main loader:main:88 - i => 136
+2017-10-25 19:19:50,578  INFO main loader:main:88 - i => 137
+2017-10-25 19:19:50,581  INFO main loader:main:88 - i => 138
+2017-10-25 19:19:50,584  INFO main loader:main:88 - i => 139
+2017-10-25 19:19:50,587  INFO main loader:main:88 - i => 140
+2017-10-25 19:19:50,590  INFO main loader:main:88 - i => 141
+2017-10-25 19:19:50,593  INFO main loader:main:88 - i => 142
+2017-10-25 19:19:50,598  INFO main loader:main:88 - i => 143
+2017-10-25 19:19:50,601  INFO main loader:main:88 - i => 144
+2017-10-25 19:19:50,605  INFO main loader:main:88 - i => 145
+2017-10-25 19:19:50,609  INFO main loader:main:88 - i => 146
+2017-10-25 19:19:50,612  INFO main loader:main:88 - i => 147
+2017-10-25 19:19:50,615  INFO main loader:main:88 - i => 148
+2017-10-25 19:19:50,618  INFO main loader:main:88 - i => 149
+2017-10-25 19:19:50,622  INFO main loader:main:88 - i => 150
+2017-10-25 19:19:50,626  INFO main loader:main:88 - i => 151
+2017-10-25 19:19:50,630  INFO main loader:main:88 - i => 152
+2017-10-25 19:19:50,633  INFO main loader:main:88 - i => 153
+2017-10-25 19:19:50,637  INFO main loader:main:88 - i => 154
+2017-10-25 19:19:50,640  INFO main loader:main:88 - i => 155
+2017-10-25 19:19:50,643  INFO main loader:main:88 - i => 156
+2017-10-25 19:19:50,646  INFO main loader:main:88 - i => 157
+2017-10-25 19:19:50,649  INFO main loader:main:88 - i => 158
+2017-10-25 19:19:50,652  INFO main loader:main:88 - i => 159
+2017-10-25 19:19:50,655  INFO main loader:main:88 - i => 160
+2017-10-25 19:19:50,658  INFO main loader:main:88 - i => 161
+2017-10-25 19:19:50,662  INFO main loader:main:88 - i => 162
+2017-10-25 19:19:50,665  INFO main loader:main:88 - i => 163
+2017-10-25 19:19:50,668  INFO main loader:main:88 - i => 164
+2017-10-25 19:19:50,670  INFO main loader:main:88 - i => 165
+2017-10-25 19:19:50,673  INFO main loader:main:88 - i => 166
+2017-10-25 19:19:50,676  INFO main loader:main:88 - i => 167
+2017-10-25 19:19:50,678  INFO main loader:main:88 - i => 168
+2017-10-25 19:19:50,682  INFO main loader:main:88 - i => 169
+2017-10-25 19:19:50,688  INFO main loader:main:88 - i => 170
+2017-10-25 19:19:50,694  INFO main loader:main:88 - i => 171
+2017-10-25 19:19:50,700  INFO main loader:main:88 - i => 172
+2017-10-25 19:19:50,704  INFO main loader:main:88 - i => 173
+2017-10-25 19:19:50,707  INFO main loader:main:88 - i => 174
+2017-10-25 19:19:50,710  INFO main loader:main:88 - i => 175
+2017-10-25 19:19:50,713  INFO main loader:main:88 - i => 176
+2017-10-25 19:19:50,716  INFO main loader:main:88 - i => 177
+2017-10-25 19:19:50,718  INFO main loader:main:88 - i => 178
+2017-10-25 19:19:50,721  INFO main loader:main:88 - i => 179
+2017-10-25 19:19:50,724  INFO main loader:main:88 - i => 180
+2017-10-25 19:19:50,728  INFO main loader:main:88 - i => 181
+2017-10-25 19:19:50,731  INFO main loader:main:88 - i => 182
+2017-10-25 19:19:50,733  INFO main loader:main:88 - i => 183
+2017-10-25 19:19:50,737  INFO main loader:main:88 - i => 184
+2017-10-25 19:19:50,740  INFO main loader:main:88 - i => 185
+2017-10-25 19:19:50,743  INFO main loader:main:88 - i => 186
+2017-10-25 19:19:50,746  INFO main loader:main:88 - i => 187
+2017-10-25 19:19:50,750  INFO main loader:main:88 - i => 188
+2017-10-25 19:19:50,753  INFO main loader:main:88 - i => 189
+2017-10-25 19:19:50,757  INFO main loader:main:88 - i => 190
+2017-10-25 19:19:50,760  INFO main loader:main:88 - i => 191
+2017-10-25 19:19:50,764  INFO main loader:main:88 - i => 192
+2017-10-25 19:19:50,767  INFO main loader:main:88 - i => 193
+2017-10-25 19:19:50,770  INFO main loader:main:88 - i => 194
+2017-10-25 19:19:50,773  INFO main loader:main:88 - i => 195
+2017-10-25 19:19:50,776  INFO main loader:main:88 - i => 196
+2017-10-25 19:19:50,778  INFO main loader:main:88 - i => 197
+2017-10-25 19:19:50,781  INFO main loader:main:88 - i => 198
+2017-10-25 19:19:50,784  INFO main loader:main:88 - i => 199
+2017-10-25 19:19:50,787  INFO main loader:main:88 - i => 200
+2017-10-25 19:19:50,789  INFO main loader:main:88 - i => 201
+2017-10-25 19:19:50,792  INFO main loader:main:88 - i => 202
+2017-10-25 19:19:50,795  INFO main loader:main:88 - i => 203
+2017-10-25 19:19:50,798  INFO main loader:main:88 - i => 204
+2017-10-25 19:19:50,801  INFO main loader:main:88 - i => 205
+2017-10-25 19:19:50,803  INFO main loader:main:88 - i => 206
+2017-10-25 19:19:50,807  INFO main loader:main:88 - i => 207
+2017-10-25 19:19:50,810  INFO main loader:main:88 - i => 208
+2017-10-25 19:19:50,813  INFO main loader:main:88 - i => 209
+2017-10-25 19:19:50,817  INFO main loader:main:88 - i => 210
+2017-10-25 19:19:50,820  INFO main loader:main:88 - i => 211
+2017-10-25 19:19:50,823  INFO main loader:main:88 - i => 212
+2017-10-25 19:19:50,827  INFO main loader:main:88 - i => 213
+2017-10-25 19:19:50,831  INFO main loader:main:88 - i => 214
+2017-10-25 19:19:50,836  INFO main loader:main:88 - i => 215
+2017-10-25 19:19:50,841  INFO main loader:main:88 - i => 216
+2017-10-25 19:19:50,845  INFO main loader:main:88 - i => 217
+2017-10-25 19:19:50,849  INFO main loader:main:88 - i => 218
+2017-10-25 19:19:50,853  INFO main loader:main:88 - i => 219
+2017-10-25 19:19:50,857  INFO main loader:main:88 - i => 220
+2017-10-25 19:19:50,861  INFO main loader:main:88 - i => 221
+2017-10-25 19:19:50,865  INFO main loader:main:88 - i => 222
+2017-10-25 19:19:50,868  INFO main loader:main:88 - i => 223
+2017-10-25 19:19:50,872  INFO main loader:main:88 - i => 224
+2017-10-25 19:19:50,878  INFO main loader:main:88 - i => 225
+2017-10-25 19:19:50,884  INFO main loader:main:88 - i => 226
+2017-10-25 19:19:50,891  INFO main loader:main:88 - i => 227
+2017-10-25 19:19:50,896  INFO main loader:main:88 - i => 228
+2017-10-25 19:19:50,901  INFO main loader:main:88 - i => 229
+2017-10-25 19:19:50,906  INFO main loader:main:88 - i => 230
+2017-10-25 19:19:50,912  INFO main loader:main:88 - i => 231
+2017-10-25 19:19:50,916  INFO main loader:main:88 - i => 232
+2017-10-25 19:19:50,920  INFO main loader:main:88 - i => 233
+2017-10-25 19:19:50,925  INFO main loader:main:88 - i => 234
+2017-10-25 19:19:50,929  INFO main loader:main:88 - i => 235
+2017-10-25 19:19:50,934  INFO main loader:main:88 - i => 236
+2017-10-25 19:19:50,937  INFO main loader:main:88 - i => 237
+2017-10-25 19:19:50,941  INFO main loader:main:88 - i => 238
+2017-10-25 19:19:50,944  INFO main loader:main:88 - i => 239
+2017-10-25 19:19:50,948  INFO main loader:main:88 - i => 240
+2017-10-25 19:19:50,951  INFO main loader:main:88 - i => 241
+2017-10-25 19:19:50,955  INFO main loader:main:88 - i => 242
+2017-10-25 19:19:50,958  INFO main loader:main:88 - i => 243
+2017-10-25 19:19:50,962  INFO main loader:main:88 - i => 244
+2017-10-25 19:19:50,966  INFO main loader:main:88 - i => 245
+2017-10-25 19:19:50,971  INFO main loader:main:88 - i => 246
+2017-10-25 19:19:50,975  INFO main loader:main:88 - i => 247
+2017-10-25 19:19:50,979  INFO main loader:main:88 - i => 248
+2017-10-25 19:19:50,983  INFO main loader:main:88 - i => 249
+2017-10-25 19:19:50,986  INFO main loader:main:88 - i => 250
+2017-10-25 19:19:50,990  INFO main loader:main:88 - i => 251
+2017-10-25 19:19:50,994  INFO main loader:main:88 - i => 252
+2017-10-25 19:19:50,999  INFO main loader:main:88 - i => 253
+2017-10-25 19:19:51,002  INFO main loader:main:88 - i => 254
+2017-10-25 19:19:51,007  INFO main loader:main:88 - i => 255
+2017-10-25 19:19:51,012  INFO main loader:main:88 - i => 256
+2017-10-25 19:19:51,018  INFO main loader:main:88 - i => 257
+2017-10-25 19:19:51,023  INFO main loader:main:88 - i => 258
+2017-10-25 19:19:51,027  INFO main loader:main:88 - i => 259
+2017-10-25 19:19:51,030  INFO main loader:main:88 - i => 260
+2017-10-25 19:19:51,034  INFO main loader:main:88 - i => 261
+2017-10-25 19:19:51,037  INFO main loader:main:88 - i => 262
+2017-10-25 19:19:51,041  INFO main loader:main:88 - i => 263
+2017-10-25 19:19:51,044  INFO main loader:main:88 - i => 264
+2017-10-25 19:19:51,048  INFO main loader:main:88 - i => 265
+2017-10-25 19:19:51,051  INFO main loader:main:88 - i => 266
+2017-10-25 19:19:51,054  INFO main loader:main:88 - i => 267
+2017-10-25 19:19:51,057  INFO main loader:main:88 - i => 268
+2017-10-25 19:19:51,060  INFO main loader:main:88 - i => 269
+2017-10-25 19:19:51,064  INFO main loader:main:88 - i => 270
+2017-10-25 19:19:51,067  INFO main loader:main:88 - i => 271
+2017-10-25 19:19:51,070  INFO main loader:main:88 - i => 272
+2017-10-25 19:19:51,073  INFO main loader:main:88 - i => 273
+2017-10-25 19:19:51,076  INFO main loader:main:88 - i => 274
+2017-10-25 19:19:51,080  INFO main loader:main:88 - i => 275
+2017-10-25 19:19:51,082  INFO main loader:main:88 - i => 276
+2017-10-25 19:19:51,086  INFO main loader:main:88 - i => 277
+2017-10-25 19:19:51,091  INFO main loader:main:88 - i => 278
+2017-10-25 19:19:51,097  INFO main loader:main:88 - i => 279
+2017-10-25 19:19:51,101  INFO main loader:main:88 - i => 280
+2017-10-25 19:19:51,106  INFO main loader:main:88 - i => 281
+2017-10-25 19:19:51,110  INFO main loader:main:88 - i => 282
+2017-10-25 19:19:51,114  INFO main loader:main:88 - i => 283
+2017-10-25 19:19:51,117  INFO main loader:main:88 - i => 284
+2017-10-25 19:19:51,121  INFO main loader:main:88 - i => 285
+2017-10-25 19:19:51,124  INFO main loader:main:88 - i => 286
+2017-10-25 19:19:51,127  INFO main loader:main:88 - i => 287
+2017-10-25 19:19:51,131  INFO main loader:main:88 - i => 288
+2017-10-25 19:19:51,135  INFO main loader:main:88 - i => 289
+2017-10-25 19:19:51,138  INFO main loader:main:88 - i => 290
+2017-10-25 19:19:51,141  INFO main loader:main:88 - i => 291
+2017-10-25 19:19:51,145  INFO main loader:main:88 - i => 292
+2017-10-25 19:19:51,148  INFO main loader:main:88 - i => 293
+2017-10-25 19:19:51,151  INFO main loader:main:88 - i => 294
+2017-10-25 19:19:51,154  INFO main loader:main:88 - i => 295
+2017-10-25 19:19:51,157  INFO main loader:main:88 - i => 296
+2017-10-25 19:19:51,161  INFO main loader:main:88 - i => 297
+2017-10-25 19:19:51,165  INFO main loader:main:88 - i => 298
+2017-10-25 19:19:51,168  INFO main loader:main:88 - i => 299
+2017-10-25 19:19:51,171  INFO main loader:main:88 - i => 300
+2017-10-25 19:19:51,174  INFO main loader:main:88 - i => 301
+2017-10-25 19:19:51,179  INFO main loader:main:88 - i => 302
+2017-10-25 19:19:51,186  INFO main loader:main:88 - i => 303
+2017-10-25 19:19:51,190  INFO main loader:main:88 - i => 304
+2017-10-25 19:19:51,194  INFO main loader:main:88 - i => 305
+2017-10-25 19:19:51,196  INFO main loader:main:88 - i => 306
+2017-10-25 19:19:51,200  INFO main loader:main:88 - i => 307
+2017-10-25 19:19:51,204  INFO main loader:main:88 - i => 308
+2017-10-25 19:19:51,207  INFO main loader:main:88 - i => 309
+2017-10-25 19:19:51,208 ERROR main loader:main:196 - java.lang.NumberFormatException: For input string: ""
+2017-10-25 19:21:13,334  INFO main loader:main:56 - [C:\backup\44.csv, C:\backup\out.log, 1000, oidc_kk, 626ec05d-ce21-464f-b0d6-29f811218ea9, videomanager]
+2017-10-25 19:21:13,336  INFO main loader:main:60 - filename_in => C:\backup\44.csv
+2017-10-25 19:21:13,336  INFO main loader:main:61 - filename_out => C:\backup\out.log
+2017-10-25 19:21:14,342  INFO main loader:main:78 - commit_count => 1000
+2017-10-25 19:21:14,342  INFO main loader:main:79 - identityProvider => oidc_kk
+2017-10-25 19:21:14,342  INFO main loader:main:80 - storageProviderID => 626ec05d-ce21-464f-b0d6-29f811218ea9
+2017-10-25 19:21:14,342  INFO main loader:main:81 - realmID => videomanager
+2017-10-25 19:21:14,344  INFO main loader:main:88 - i => 0
+2017-10-25 19:21:14,345  INFO main loader:main:93 - commit transaction i= 0
+2017-10-25 19:21:14,422  INFO main loader:main:88 - i => 1
+2017-10-25 19:21:14,430  INFO main loader:main:88 - i => 2
+2017-10-25 19:21:14,435  INFO main loader:main:88 - i => 3
+2017-10-25 19:21:14,441  INFO main loader:main:88 - i => 4
+2017-10-25 19:21:14,447  INFO main loader:main:88 - i => 5
+2017-10-25 19:21:14,453  INFO main loader:main:88 - i => 6
+2017-10-25 19:21:14,457  INFO main loader:main:88 - i => 7
+2017-10-25 19:21:14,463  INFO main loader:main:88 - i => 8
+2017-10-25 19:21:14,466  INFO main loader:main:88 - i => 9
+2017-10-25 19:21:14,470  INFO main loader:main:88 - i => 10
+2017-10-25 19:21:14,474  INFO main loader:main:88 - i => 11
+2017-10-25 19:21:14,479  INFO main loader:main:88 - i => 12
+2017-10-25 19:21:14,483  INFO main loader:main:88 - i => 13
+2017-10-25 19:21:14,488  INFO main loader:main:88 - i => 14
+2017-10-25 19:21:14,492  INFO main loader:main:88 - i => 15
+2017-10-25 19:21:14,496  INFO main loader:main:88 - i => 16
+2017-10-25 19:21:14,501  INFO main loader:main:88 - i => 17
+2017-10-25 19:21:14,505  INFO main loader:main:88 - i => 18
+2017-10-25 19:21:14,508  INFO main loader:main:88 - i => 19
+2017-10-25 19:21:14,512  INFO main loader:main:88 - i => 20
+2017-10-25 19:21:14,516  INFO main loader:main:88 - i => 21
+2017-10-25 19:21:14,521  INFO main loader:main:88 - i => 22
+2017-10-25 19:21:14,525  INFO main loader:main:88 - i => 23
+2017-10-25 19:21:14,529  INFO main loader:main:88 - i => 24
+2017-10-25 19:21:14,534  INFO main loader:main:88 - i => 25
+2017-10-25 19:21:14,538  INFO main loader:main:88 - i => 26
+2017-10-25 19:21:14,543  INFO main loader:main:88 - i => 27
+2017-10-25 19:21:14,547  INFO main loader:main:88 - i => 28
+2017-10-25 19:21:14,553  INFO main loader:main:88 - i => 29
+2017-10-25 19:21:14,560  INFO main loader:main:88 - i => 30
+2017-10-25 19:21:14,565  INFO main loader:main:88 - i => 31
+2017-10-25 19:21:14,569  INFO main loader:main:88 - i => 32
+2017-10-25 19:21:14,574  INFO main loader:main:88 - i => 33
+2017-10-25 19:21:14,578  INFO main loader:main:88 - i => 34
+2017-10-25 19:21:14,581  INFO main loader:main:88 - i => 35
+2017-10-25 19:21:14,585  INFO main loader:main:88 - i => 36
+2017-10-25 19:21:14,590  INFO main loader:main:88 - i => 37
+2017-10-25 19:21:14,594  INFO main loader:main:88 - i => 38
+2017-10-25 19:21:14,599  INFO main loader:main:88 - i => 39
+2017-10-25 19:21:14,605  INFO main loader:main:88 - i => 40
+2017-10-25 19:21:14,610  INFO main loader:main:88 - i => 41
+2017-10-25 19:21:14,617  INFO main loader:main:88 - i => 42
+2017-10-25 19:21:14,623  INFO main loader:main:88 - i => 43
+2017-10-25 19:21:14,626  INFO main loader:main:88 - i => 44
+2017-10-25 19:21:14,632  INFO main loader:main:88 - i => 45
+2017-10-25 19:21:14,637  INFO main loader:main:88 - i => 46
+2017-10-25 19:21:14,642  INFO main loader:main:88 - i => 47
+2017-10-25 19:21:14,647  INFO main loader:main:88 - i => 48
+2017-10-25 19:21:14,651  INFO main loader:main:88 - i => 49
+2017-10-25 19:21:14,655  INFO main loader:main:88 - i => 50
+2017-10-25 19:21:14,659  INFO main loader:main:88 - i => 51
+2017-10-25 19:21:14,663  INFO main loader:main:88 - i => 52
+2017-10-25 19:21:14,666  INFO main loader:main:88 - i => 53
+2017-10-25 19:21:14,669  INFO main loader:main:88 - i => 54
+2017-10-25 19:21:14,673  INFO main loader:main:88 - i => 55
+2017-10-25 19:21:14,678  INFO main loader:main:88 - i => 56
+2017-10-25 19:21:14,683  INFO main loader:main:88 - i => 57
+2017-10-25 19:21:14,687  INFO main loader:main:88 - i => 58
+2017-10-25 19:21:14,690  INFO main loader:main:88 - i => 59
+2017-10-25 19:21:14,694  INFO main loader:main:88 - i => 60
+2017-10-25 19:21:14,697  INFO main loader:main:88 - i => 61
+2017-10-25 19:21:14,701  INFO main loader:main:88 - i => 62
+2017-10-25 19:21:14,704  INFO main loader:main:88 - i => 63
+2017-10-25 19:21:14,709  INFO main loader:main:88 - i => 64
+2017-10-25 19:21:14,714  INFO main loader:main:88 - i => 65
+2017-10-25 19:21:14,719  INFO main loader:main:88 - i => 66
+2017-10-25 19:21:14,724  INFO main loader:main:88 - i => 67
+2017-10-25 19:21:14,728  INFO main loader:main:88 - i => 68
+2017-10-25 19:21:14,732  INFO main loader:main:88 - i => 69
+2017-10-25 19:21:14,736  INFO main loader:main:88 - i => 70
+2017-10-25 19:21:14,741  INFO main loader:main:88 - i => 71
+2017-10-25 19:21:14,745  INFO main loader:main:88 - i => 72
+2017-10-25 19:21:14,749  INFO main loader:main:88 - i => 73
+2017-10-25 19:21:14,756  INFO main loader:main:88 - i => 74
+2017-10-25 19:21:14,763  INFO main loader:main:88 - i => 75
+2017-10-25 19:21:14,768  INFO main loader:main:88 - i => 76
+2017-10-25 19:21:14,773  INFO main loader:main:88 - i => 77
+2017-10-25 19:21:14,778  INFO main loader:main:88 - i => 78
+2017-10-25 19:21:14,783  INFO main loader:main:88 - i => 79
+2017-10-25 19:21:14,787  INFO main loader:main:88 - i => 80
+2017-10-25 19:21:14,791  INFO main loader:main:88 - i => 81
+2017-10-25 19:21:14,797  INFO main loader:main:88 - i => 82
+2017-10-25 19:21:14,800  INFO main loader:main:88 - i => 83
+2017-10-25 19:21:14,803  INFO main loader:main:88 - i => 84
+2017-10-25 19:21:14,807  INFO main loader:main:88 - i => 85
+2017-10-25 19:21:14,811  INFO main loader:main:88 - i => 86
+2017-10-25 19:21:14,815  INFO main loader:main:88 - i => 87
+2017-10-25 19:21:14,819  INFO main loader:main:88 - i => 88
+2017-10-25 19:21:14,822  INFO main loader:main:88 - i => 89
+2017-10-25 19:21:14,826  INFO main loader:main:88 - i => 90
+2017-10-25 19:21:14,829  INFO main loader:main:88 - i => 91
+2017-10-25 19:21:14,832  INFO main loader:main:88 - i => 92
+2017-10-25 19:21:14,835  INFO main loader:main:88 - i => 93
+2017-10-25 19:21:14,839  INFO main loader:main:88 - i => 94
+2017-10-25 19:21:14,842  INFO main loader:main:88 - i => 95
+2017-10-25 19:21:14,846  INFO main loader:main:88 - i => 96
+2017-10-25 19:21:14,849  INFO main loader:main:88 - i => 97
+2017-10-25 19:21:14,853  INFO main loader:main:88 - i => 98
+2017-10-25 19:21:14,857  INFO main loader:main:88 - i => 99
+2017-10-25 19:21:14,861  INFO main loader:main:88 - i => 100
+2017-10-25 19:21:14,864  INFO main loader:main:88 - i => 101
+2017-10-25 19:21:14,867  INFO main loader:main:88 - i => 102
+2017-10-25 19:21:14,872  INFO main loader:main:88 - i => 103
+2017-10-25 19:21:14,876  INFO main loader:main:88 - i => 104
+2017-10-25 19:21:14,880  INFO main loader:main:88 - i => 105
+2017-10-25 19:21:14,884  INFO main loader:main:88 - i => 106
+2017-10-25 19:21:14,890  INFO main loader:main:88 - i => 107
+2017-10-25 19:21:14,898  INFO main loader:main:88 - i => 108
+2017-10-25 19:21:14,903  INFO main loader:main:88 - i => 109
+2017-10-25 19:21:14,907  INFO main loader:main:88 - i => 110
+2017-10-25 19:21:14,913  INFO main loader:main:88 - i => 111
+2017-10-25 19:21:14,918  INFO main loader:main:88 - i => 112
+2017-10-25 19:21:14,923  INFO main loader:main:88 - i => 113
+2017-10-25 19:21:14,928  INFO main loader:main:88 - i => 114
+2017-10-25 19:21:14,932  INFO main loader:main:88 - i => 115
+2017-10-25 19:21:14,935  INFO main loader:main:88 - i => 116
+2017-10-25 19:21:14,939  INFO main loader:main:88 - i => 117
+2017-10-25 19:21:14,944  INFO main loader:main:88 - i => 118
+2017-10-25 19:21:14,948  INFO main loader:main:88 - i => 119
+2017-10-25 19:21:14,953  INFO main loader:main:88 - i => 120
+2017-10-25 19:21:14,956  INFO main loader:main:88 - i => 121
+2017-10-25 19:21:14,962  INFO main loader:main:88 - i => 122
+2017-10-25 19:21:14,968  INFO main loader:main:88 - i => 123
+2017-10-25 19:21:14,973  INFO main loader:main:88 - i => 124
+2017-10-25 19:21:14,978  INFO main loader:main:88 - i => 125
+2017-10-25 19:21:14,983  INFO main loader:main:88 - i => 126
+2017-10-25 19:21:14,987  INFO main loader:main:88 - i => 127
+2017-10-25 19:21:14,992  INFO main loader:main:88 - i => 128
+2017-10-25 19:21:14,997  INFO main loader:main:88 - i => 129
+2017-10-25 19:21:15,001  INFO main loader:main:88 - i => 130
+2017-10-25 19:21:15,006  INFO main loader:main:88 - i => 131
+2017-10-25 19:21:15,009  INFO main loader:main:88 - i => 132
+2017-10-25 19:21:15,013  INFO main loader:main:88 - i => 133
+2017-10-25 19:21:15,016  INFO main loader:main:88 - i => 134
+2017-10-25 19:21:15,019  INFO main loader:main:88 - i => 135
+2017-10-25 19:21:15,022  INFO main loader:main:88 - i => 136
+2017-10-25 19:21:15,025  INFO main loader:main:88 - i => 137
+2017-10-25 19:21:15,028  INFO main loader:main:88 - i => 138
+2017-10-25 19:21:15,031  INFO main loader:main:88 - i => 139
+2017-10-25 19:21:15,035  INFO main loader:main:88 - i => 140
+2017-10-25 19:21:15,038  INFO main loader:main:88 - i => 141
+2017-10-25 19:21:15,043  INFO main loader:main:88 - i => 142
+2017-10-25 19:21:15,047  INFO main loader:main:88 - i => 143
+2017-10-25 19:21:15,050  INFO main loader:main:88 - i => 144
+2017-10-25 19:21:15,055  INFO main loader:main:88 - i => 145
+2017-10-25 19:21:15,058  INFO main loader:main:88 - i => 146
+2017-10-25 19:21:15,061  INFO main loader:main:88 - i => 147
+2017-10-25 19:21:15,065  INFO main loader:main:88 - i => 148
+2017-10-25 19:21:15,068  INFO main loader:main:88 - i => 149
+2017-10-25 19:21:15,071  INFO main loader:main:88 - i => 150
+2017-10-25 19:21:15,075  INFO main loader:main:88 - i => 151
+2017-10-25 19:21:15,078  INFO main loader:main:88 - i => 152
+2017-10-25 19:21:15,083  INFO main loader:main:88 - i => 153
+2017-10-25 19:21:15,087  INFO main loader:main:88 - i => 154
+2017-10-25 19:21:15,091  INFO main loader:main:88 - i => 155
+2017-10-25 19:21:15,094  INFO main loader:main:88 - i => 156
+2017-10-25 19:21:15,098  INFO main loader:main:88 - i => 157
+2017-10-25 19:21:15,101  INFO main loader:main:88 - i => 158
+2017-10-25 19:21:15,103  INFO main loader:main:88 - i => 159
+2017-10-25 19:21:15,106  INFO main loader:main:88 - i => 160
+2017-10-25 19:21:15,110  INFO main loader:main:88 - i => 161
+2017-10-25 19:21:15,113  INFO main loader:main:88 - i => 162
+2017-10-25 19:21:15,116  INFO main loader:main:88 - i => 163
+2017-10-25 19:21:15,120  INFO main loader:main:88 - i => 164
+2017-10-25 19:21:15,122  INFO main loader:main:88 - i => 165
+2017-10-25 19:21:15,126  INFO main loader:main:88 - i => 166
+2017-10-25 19:21:15,129  INFO main loader:main:88 - i => 167
+2017-10-25 19:21:15,132  INFO main loader:main:88 - i => 168
+2017-10-25 19:21:15,135  INFO main loader:main:88 - i => 169
+2017-10-25 19:21:15,139  INFO main loader:main:88 - i => 170
+2017-10-25 19:21:15,143  INFO main loader:main:88 - i => 171
+2017-10-25 19:21:15,147  INFO main loader:main:88 - i => 172
+2017-10-25 19:21:15,151  INFO main loader:main:88 - i => 173
+2017-10-25 19:21:15,155  INFO main loader:main:88 - i => 174
+2017-10-25 19:21:15,157  INFO main loader:main:88 - i => 175
+2017-10-25 19:21:15,161  INFO main loader:main:88 - i => 176
+2017-10-25 19:21:15,166  INFO main loader:main:88 - i => 177
+2017-10-25 19:21:15,171  INFO main loader:main:88 - i => 178
+2017-10-25 19:21:15,175  INFO main loader:main:88 - i => 179
+2017-10-25 19:21:15,179  INFO main loader:main:88 - i => 180
+2017-10-25 19:21:15,183  INFO main loader:main:88 - i => 181
+2017-10-25 19:21:15,186  INFO main loader:main:88 - i => 182
+2017-10-25 19:21:15,189  INFO main loader:main:88 - i => 183
+2017-10-25 19:21:15,192  INFO main loader:main:88 - i => 184
+2017-10-25 19:21:15,196  INFO main loader:main:88 - i => 185
+2017-10-25 19:21:15,199  INFO main loader:main:88 - i => 186
+2017-10-25 19:21:15,203  INFO main loader:main:88 - i => 187
+2017-10-25 19:21:15,205  INFO main loader:main:88 - i => 188
+2017-10-25 19:21:15,208  INFO main loader:main:88 - i => 189
+2017-10-25 19:21:15,212  INFO main loader:main:88 - i => 190
+2017-10-25 19:21:15,216  INFO main loader:main:88 - i => 191
+2017-10-25 19:21:15,220  INFO main loader:main:88 - i => 192
+2017-10-25 19:21:15,223  INFO main loader:main:88 - i => 193
+2017-10-25 19:21:15,227  INFO main loader:main:88 - i => 194
+2017-10-25 19:21:15,230  INFO main loader:main:88 - i => 195
+2017-10-25 19:21:15,234  INFO main loader:main:88 - i => 196
+2017-10-25 19:21:15,237  INFO main loader:main:88 - i => 197
+2017-10-25 19:21:15,239  INFO main loader:main:88 - i => 198
+2017-10-25 19:21:15,242  INFO main loader:main:88 - i => 199
+2017-10-25 19:21:15,245  INFO main loader:main:88 - i => 200
+2017-10-25 19:21:15,248  INFO main loader:main:88 - i => 201
+2017-10-25 19:21:15,250  INFO main loader:main:88 - i => 202
+2017-10-25 19:21:15,253  INFO main loader:main:88 - i => 203
+2017-10-25 19:21:15,256  INFO main loader:main:88 - i => 204
+2017-10-25 19:21:15,258  INFO main loader:main:88 - i => 205
+2017-10-25 19:21:15,262  INFO main loader:main:88 - i => 206
+2017-10-25 19:21:15,265  INFO main loader:main:88 - i => 207
+2017-10-25 19:21:15,268  INFO main loader:main:88 - i => 208
+2017-10-25 19:21:15,272  INFO main loader:main:88 - i => 209
+2017-10-25 19:21:15,276  INFO main loader:main:88 - i => 210
+2017-10-25 19:21:15,279  INFO main loader:main:88 - i => 211
+2017-10-25 19:21:15,283  INFO main loader:main:88 - i => 212
+2017-10-25 19:21:15,287  INFO main loader:main:88 - i => 213
+2017-10-25 19:21:15,291  INFO main loader:main:88 - i => 214
+2017-10-25 19:21:15,295  INFO main loader:main:88 - i => 215
+2017-10-25 19:21:15,299  INFO main loader:main:88 - i => 216
+2017-10-25 19:21:15,303  INFO main loader:main:88 - i => 217
+2017-10-25 19:21:15,307  INFO main loader:main:88 - i => 218
+2017-10-25 19:21:15,311  INFO main loader:main:88 - i => 219
+2017-10-25 19:21:15,315  INFO main loader:main:88 - i => 220
+2017-10-25 19:21:15,320  INFO main loader:main:88 - i => 221
+2017-10-25 19:21:15,326  INFO main loader:main:88 - i => 222
+2017-10-25 19:21:15,331  INFO main loader:main:88 - i => 223
+2017-10-25 19:21:15,337  INFO main loader:main:88 - i => 224
+2017-10-25 19:21:15,342  INFO main loader:main:88 - i => 225
+2017-10-25 19:21:15,347  INFO main loader:main:88 - i => 226
+2017-10-25 19:21:15,352  INFO main loader:main:88 - i => 227
+2017-10-25 19:21:15,358  INFO main loader:main:88 - i => 228
+2017-10-25 19:21:15,362  INFO main loader:main:88 - i => 229
+2017-10-25 19:21:15,367  INFO main loader:main:88 - i => 230
+2017-10-25 19:21:15,375  INFO main loader:main:88 - i => 231
+2017-10-25 19:21:15,381  INFO main loader:main:88 - i => 232
+2017-10-25 19:21:15,386  INFO main loader:main:88 - i => 233
+2017-10-25 19:21:15,390  INFO main loader:main:88 - i => 234
+2017-10-25 19:21:15,394  INFO main loader:main:88 - i => 235
+2017-10-25 19:21:15,399  INFO main loader:main:88 - i => 236
+2017-10-25 19:21:15,402  INFO main loader:main:88 - i => 237
+2017-10-25 19:21:15,406  INFO main loader:main:88 - i => 238
+2017-10-25 19:21:15,409  INFO main loader:main:88 - i => 239
+2017-10-25 19:21:15,413  INFO main loader:main:88 - i => 240
+2017-10-25 19:21:15,416  INFO main loader:main:88 - i => 241
+2017-10-25 19:21:15,420  INFO main loader:main:88 - i => 242
+2017-10-25 19:21:15,423  INFO main loader:main:88 - i => 243
+2017-10-25 19:21:15,427  INFO main loader:main:88 - i => 244
+2017-10-25 19:21:15,431  INFO main loader:main:88 - i => 245
+2017-10-25 19:21:15,436  INFO main loader:main:88 - i => 246
+2017-10-25 19:21:15,441  INFO main loader:main:88 - i => 247
+2017-10-25 19:21:15,446  INFO main loader:main:88 - i => 248
+2017-10-25 19:21:15,449  INFO main loader:main:88 - i => 249
+2017-10-25 19:21:15,454  INFO main loader:main:88 - i => 250
+2017-10-25 19:21:15,458  INFO main loader:main:88 - i => 251
+2017-10-25 19:21:15,462  INFO main loader:main:88 - i => 252
+2017-10-25 19:21:15,467  INFO main loader:main:88 - i => 253
+2017-10-25 19:21:15,472  INFO main loader:main:88 - i => 254
+2017-10-25 19:21:15,477  INFO main loader:main:88 - i => 255
+2017-10-25 19:21:15,483  INFO main loader:main:88 - i => 256
+2017-10-25 19:21:15,489  INFO main loader:main:88 - i => 257
+2017-10-25 19:21:15,494  INFO main loader:main:88 - i => 258
+2017-10-25 19:21:15,500  INFO main loader:main:88 - i => 259
+2017-10-25 19:21:15,502  INFO main loader:main:88 - i => 260
+2017-10-25 19:21:15,506  INFO main loader:main:88 - i => 261
+2017-10-25 19:21:15,509  INFO main loader:main:88 - i => 262
+2017-10-25 19:21:15,513  INFO main loader:main:88 - i => 263
+2017-10-25 19:21:15,517  INFO main loader:main:88 - i => 264
+2017-10-25 19:21:15,520  INFO main loader:main:88 - i => 265
+2017-10-25 19:21:15,523  INFO main loader:main:88 - i => 266
+2017-10-25 19:21:15,527  INFO main loader:main:88 - i => 267
+2017-10-25 19:21:15,530  INFO main loader:main:88 - i => 268
+2017-10-25 19:21:15,534  INFO main loader:main:88 - i => 269
+2017-10-25 19:21:15,537  INFO main loader:main:88 - i => 270
+2017-10-25 19:21:15,540  INFO main loader:main:88 - i => 271
+2017-10-25 19:21:15,545  INFO main loader:main:88 - i => 272
+2017-10-25 19:21:15,549  INFO main loader:main:88 - i => 273
+2017-10-25 19:21:15,551  INFO main loader:main:88 - i => 274
+2017-10-25 19:21:15,555  INFO main loader:main:88 - i => 275
+2017-10-25 19:21:15,559  INFO main loader:main:88 - i => 276
+2017-10-25 19:21:15,563  INFO main loader:main:88 - i => 277
+2017-10-25 19:21:15,569  INFO main loader:main:88 - i => 278
+2017-10-25 19:21:15,575  INFO main loader:main:88 - i => 279
+2017-10-25 19:21:15,580  INFO main loader:main:88 - i => 280
+2017-10-25 19:21:15,584  INFO main loader:main:88 - i => 281
+2017-10-25 19:21:15,588  INFO main loader:main:88 - i => 282
+2017-10-25 19:21:15,593  INFO main loader:main:88 - i => 283
+2017-10-25 19:21:15,597  INFO main loader:main:88 - i => 284
+2017-10-25 19:21:15,602  INFO main loader:main:88 - i => 285
+2017-10-25 19:21:15,606  INFO main loader:main:88 - i => 286
+2017-10-25 19:21:15,610  INFO main loader:main:88 - i => 287
+2017-10-25 19:21:15,614  INFO main loader:main:88 - i => 288
+2017-10-25 19:21:15,618  INFO main loader:main:88 - i => 289
+2017-10-25 19:21:15,622  INFO main loader:main:88 - i => 290
+2017-10-25 19:21:15,626  INFO main loader:main:88 - i => 291
+2017-10-25 19:21:15,631  INFO main loader:main:88 - i => 292
+2017-10-25 19:21:15,635  INFO main loader:main:88 - i => 293
+2017-10-25 19:21:15,639  INFO main loader:main:88 - i => 294
+2017-10-25 19:21:15,644  INFO main loader:main:88 - i => 295
+2017-10-25 19:21:15,648  INFO main loader:main:88 - i => 296
+2017-10-25 19:21:15,651  INFO main loader:main:88 - i => 297
+2017-10-25 19:21:15,654  INFO main loader:main:88 - i => 298
+2017-10-25 19:21:15,658  INFO main loader:main:88 - i => 299
+2017-10-25 19:21:15,661  INFO main loader:main:88 - i => 300
+2017-10-25 19:21:15,666  INFO main loader:main:88 - i => 301
+2017-10-25 19:21:15,670  INFO main loader:main:88 - i => 302
+2017-10-25 19:21:15,676  INFO main loader:main:88 - i => 303
+2017-10-25 19:21:15,679  INFO main loader:main:88 - i => 304
+2017-10-25 19:21:15,682  INFO main loader:main:88 - i => 305
+2017-10-25 19:21:15,685  INFO main loader:main:88 - i => 306
+2017-10-25 19:21:15,688  INFO main loader:main:88 - i => 307
+2017-10-25 19:21:15,691  INFO main loader:main:88 - i => 308
+2017-10-25 19:21:15,694  INFO main loader:main:88 - i => 309

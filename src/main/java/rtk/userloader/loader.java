@@ -62,7 +62,7 @@ public class loader {
             TUsers user;
             try {
                 EntityManager em = Persistence.createEntityManagerFactory("rti_userLoader_JPA").createEntityManager();
-                EntityManager em1 = Persistence.createEntityManagerFactory("rti_userLoader_KK_JPA").createEntityManager();
+                //EntityManager em1 = Persistence.createEntityManagerFactory("rti_userLoader_KK_JPA").createEntityManager();
                 
                 BufferedReader bReader = new BufferedReader(new InputStreamReader(new FileInputStream(filename_in)));
                 BufferedWriter bWriter = new BufferedWriter(new FileWriter(filename_out));
@@ -85,6 +85,7 @@ public class loader {
                 StringBuilder temp = new StringBuilder();
                 while ((nextString = bReader.readLine()) != null) {
                     try {
+//                        log.info("i => " + i);
                         long rez = (long) i % commit_count;
                         err_line++;
                         //rez = (long) Math.floor(i / 5);
@@ -95,9 +96,9 @@ public class loader {
                                     //addAttr(userArr, em);
                                     //userArr.clear();
                                     em.getTransaction().commit();
-                                    if (em1.getTransaction().isActive()) {
-                                        em1.getTransaction().commit();
-                                    }
+//                                    if (em1.getTransaction().isActive()) {
+//                                        em1.getTransaction().commit();
+//                                    }
                                 } catch (Exception e3) {
                                     log.log(Priority.ERROR, e3);
                                     temp.append("-------------------------------- err_line => ").append(err_line).append(" fileLine => ").append(i).append(" ------------------------------------------\n");
@@ -107,11 +108,11 @@ public class loader {
                                     err_line = 0;
                                     if (em.getTransaction().isActive()) {
                                         em.getTransaction().rollback();
-                                        if (em1.getTransaction().isActive()) {
-                                            em1.getTransaction().rollback();
-                                        }
+//                                        if (em1.getTransaction().isActive()) {
+//                                            em1.getTransaction().rollback();
+//                                        }
                                         em.getTransaction().begin();
-                                        em1.getTransaction().begin();
+//                                        em1.getTransaction().begin();
                                     }
                                     i++;
                                 }
@@ -119,7 +120,7 @@ public class loader {
                             err_line = 0;
                             temp.delete(0, Integer.MAX_VALUE);
                             em.getTransaction().begin();
-                            em1.getTransaction().begin();
+//                            em1.getTransaction().begin();
                         }
                         temp.append(nextString).append("\n");
                         String[] arr = nextString.split(";", -1);
@@ -142,26 +143,26 @@ public class loader {
                             em.merge(user);
                             // Добавляем ссылку на провайдер
                             // Получаем ID пользователя
-                            TUsersDAO userDAO = new TUsersDAO(em);
-                            user = userDAO.getItemByName(user.getUsername(), "TUsers.findByUsername");
-                            //userArr.put(arr[0], user);
-                            // Добавляем аттрибуты
-                            TUserAttribute attr = new TUserAttribute();
-                            attr.setUserId(user);
-                            attr.setName("id_app_1");
-                            attr.setValue(arr[0]);
-                            attr.setVisibleFlag(true);
-                            em.merge(attr);
-                            //log.debug(user);
-                            BrokerLinkPK pk = new BrokerLinkPK(identityProvider, "f:" + storageProviderID + ":" + user.getId().toString());
-                            BrokerLink link = new BrokerLink();
-                            link.setBrokerUsername(user.getUsername());
-                            link.setStorageProviderId(storageProviderID);
-                            link.setBrokerLinkPK(pk);
-                            link.setRealmId(realmID);
-                            link.setBrokerUserId(arr[0]);
-
-                            em1.merge(link);
+//                            TUsersDAO userDAO = new TUsersDAO(em);
+//                            user = userDAO.getItemByName(user.getUsername(), "TUsers.findByUsername");
+//                            //userArr.put(arr[0], user);
+//                            // Добавляем аттрибуты
+//                            TUserAttribute attr = new TUserAttribute();
+//                            attr.setUserId(user);
+//                            attr.setName("id_app_1");
+//                            attr.setValue(arr[0]);
+//                            attr.setVisibleFlag(true);
+//                            em.merge(attr);
+//                            //log.debug(user);
+//                            BrokerLinkPK pk = new BrokerLinkPK(identityProvider, "f:" + storageProviderID + ":" + user.getId().toString());
+//                            BrokerLink link = new BrokerLink();
+//                            link.setBrokerUsername(user.getUsername());
+//                            link.setStorageProviderId(storageProviderID);
+//                            link.setBrokerLinkPK(pk);
+//                            link.setRealmId(realmID);
+//                            link.setBrokerUserId(arr[0]);
+//
+//                            em1.merge(link);
                             
                         } catch (Exception e2) {
                             log.log(Priority.ERROR, e2);
@@ -172,11 +173,11 @@ public class loader {
                             err_line = 0;
                             if (em.getTransaction().isActive()) {
                                 em.getTransaction().rollback();
-                                if (em1.getTransaction().isActive()) {
-                                    em1.getTransaction().rollback();
-                                }
+//                                if (em1.getTransaction().isActive()) {
+//                                    em1.getTransaction().rollback();
+//                                }
                                 em.getTransaction().begin();
-                                em1.getTransaction().begin();
+//                                em1.getTransaction().begin();
                             }
                             i++;
                         }
@@ -192,7 +193,7 @@ public class loader {
                     em.getTransaction().commit();
                 }
             } catch (Exception e) {
-                log.log(Priority.ERROR, e);
+                e.printStackTrace();
             }
         }
     }
