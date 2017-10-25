@@ -3,6 +3,7 @@
   <persistence-unit name="rti_userLoader_JPA" transaction-type="RESOURCE_LOCAL">
     <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
     <class>rtk.bean.TUsers</class>
+    <class>rtk.bean.TUserAttribute</class>
     <properties>
       <property name="hibernate.show_sql" value="true"/>
       <property name="hibernate.format_sql" value="true"/>

@@ -20,6 +20,7 @@ import java.io.*;
 import rtk.DAO.TUsersDAO;
 import rtk.bean.BrokerLink;
 import rtk.bean.BrokerLinkPK;
+import rtk.bean.TUserAttribute;
 
 /**
  *
@@ -121,6 +122,13 @@ public class loader {
                             // Получаем ID пользователя
                             TUsersDAO userDAO = new TUsersDAO(em);
                             user = userDAO.getItemByName(user.getUsername(), "TUsers.findByUsername");
+                            // Добавляем аттрибуты
+                            TUserAttribute attr = new TUserAttribute();
+                            attr.setId(user.getId());
+                            attr.setName("id_app_1");
+                            attr.setValue(user.getId().toString());
+                            attr.setVisibleFlag(true);
+                            em.merge(attr);
                             //log.debug(user);
                             BrokerLinkPK pk = new BrokerLinkPK(identityProvider, "f:" + storageProviderID + ":" + user.getId().toString());
                             BrokerLink link = new BrokerLink();

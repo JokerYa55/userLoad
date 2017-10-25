@@ -6,8 +6,10 @@
 package rtk.bean;
 
 import java.io.Serializable;
+import java.util.Collection;
 import java.util.Date;
 import javax.persistence.Basic;
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -15,11 +17,13 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.NamedQueries;
 import javax.persistence.NamedQuery;
+import javax.persistence.OneToMany;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 import javax.xml.bind.annotation.XmlRootElement;
+import javax.xml.bind.annotation.XmlTransient;
 
 /**
  *
@@ -47,6 +51,9 @@ import javax.xml.bind.annotation.XmlRootElement;
     , @NamedQuery(name = "TUsers.findByUserStatus", query = "SELECT t FROM TUsers t WHERE t.userStatus = :userStatus")
     , @NamedQuery(name = "TUsers.findByUsername", query = "SELECT t FROM TUsers t WHERE t.username = :username")})
 public class TUsers implements Serializable {
+
+    @OneToMany(cascade = CascadeType.ALL, mappedBy = "userId")
+    private Collection<TUserAttribute> tUserAttributeCollection;
 
     private static final long serialVersionUID = 1L;
     @Id
@@ -255,6 +262,15 @@ public class TUsers implements Serializable {
     @Override
     public String toString() {
         return "TUsers{" + "id=" + id + ", firstname=" + firstname + ", lastname=" + lastname + ", thirdname=" + thirdname + ", username=" + username + '}';
+    }
+
+    @XmlTransient
+    public Collection<TUserAttribute> getTUserAttributeCollection() {
+        return tUserAttributeCollection;
+    }
+
+    public void setTUserAttributeCollection(Collection<TUserAttribute> tUserAttributeCollection) {
+        this.tUserAttributeCollection = tUserAttributeCollection;
     }
 
     
