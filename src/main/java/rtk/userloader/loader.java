@@ -52,7 +52,7 @@ public class loader {
             log.info("filename_out => " + filename_out);
 
             try {
-                                
+
                 commit_count = Long.parseLong(args[2]);
                 identityProvider = args[3];
                 storageProviderID = args[4];
@@ -104,7 +104,7 @@ public class loader {
                                     err_line = 0;
                                     if (em.getTransaction().isActive()) {
                                         em.getTransaction().rollback();
-                                         if (em1.getTransaction().isActive()) {
+                                        if (em1.getTransaction().isActive()) {
                                             em1.getTransaction().rollback();
                                         }
                                         em.getTransaction().begin();
@@ -116,6 +116,7 @@ public class loader {
                             err_line = 0;
                             temp.delete(0, Integer.MAX_VALUE);
                             em.getTransaction().begin();
+                            em1.getTransaction().begin();
                         }
                         temp.append(nextString).append("\n");
                         String[] arr = nextString.split(";", -1);
@@ -140,16 +141,16 @@ public class loader {
                         attr.setName("id_app_1");
                         attr.setValue(arr[0]);
                         attr.setVisibleFlag(true);
-                        
+
                         Collection<TUserAttribute> attrList = new LinkedList();
                         attrList.add(attr);
-                        
+
                         user.setTUserAttributeCollection(attrList);
 
                         try {
-                            em.merge(user);
+                            em.persist(user);
                             // Добавляем ссылку на провайдер
-                            
+
                             BrokerLinkPK pk = new BrokerLinkPK(identityProvider, "f:" + storageProviderID + ":" + user.getId().toString());
                             BrokerLink link = new BrokerLink();
                             link.setBrokerUsername(user.getUsername());
@@ -158,7 +159,12 @@ public class loader {
                             link.setRealmId(realmID);
                             link.setBrokerUserId(arr[0]);
 
-                            em1.merge(link);
+                            //log.info("link => " + link);
+
+                            em1.persist(link);
+                            if (em1.getTransaction().isActive()) {
+                                em1.getTransaction().commit();
+                            }
 
                         } catch (Exception e2) {
                             log.log(Priority.ERROR, e2);
@@ -191,7 +197,7 @@ public class loader {
             if (em.getTransaction().isActive()) {
                 em.getTransaction().commit();
             }
-            
+
             if (em1.getTransaction().isActive()) {
                 em1.getTransaction().commit();
             }
