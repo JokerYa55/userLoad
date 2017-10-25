@@ -17,6 +17,10 @@ import org.apache.log4j.Logger;
 import org.apache.log4j.Priority;
 import rtk.bean.TUsers;
 import java.io.*;
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
 import rtk.DAO.TUsersDAO;
 import rtk.bean.BrokerLink;
 import rtk.bean.BrokerLinkPK;
@@ -32,7 +36,21 @@ public class loader {
      * @param args the command line arguments
      */
     private static final Logger log = Logger.getLogger(loader.class.getName());
-
+    
+    private static void addAttr(Map<String, TUsers> listUser, EntityManager l_em) {
+        try {
+            listUser.forEach((String t, TUsers u) -> {
+                TUserAttribute attr = new TUserAttribute();
+                attr.setUserId(u);
+                attr.setName("id_app_1");
+                attr.setValue(t);
+                attr.setVisibleFlag(true);
+                l_em.merge(attr);
+            });          
+        } catch (Exception e) {
+        }
+    }
+    
     public static void main(String[] args) {
         // TODO code application logic here
         log.info(Arrays.toString(args));
@@ -45,10 +63,10 @@ public class loader {
             try {
                 EntityManager em = Persistence.createEntityManagerFactory("rti_userLoader_JPA").createEntityManager();
                 EntityManager em1 = Persistence.createEntityManagerFactory("rti_userLoader_KK_JPA").createEntityManager();
-
+                
                 BufferedReader bReader = new BufferedReader(new InputStreamReader(new FileInputStream(filename_in)));
                 BufferedWriter bWriter = new BufferedWriter(new FileWriter(filename_out));
-
+                
                 String nextString;
                 long i = 0;
                 long err_line = 0;
@@ -62,6 +80,8 @@ public class loader {
                 log.info("storageProviderID => " + storageProviderID);
                 log.info("realmID => " + realmID);
                 
+                HashMap<String, TUsers> userArr = new HashMap();
+                
                 StringBuilder temp = new StringBuilder();
                 while ((nextString = bReader.readLine()) != null) {
                     try {
@@ -72,6 +92,8 @@ public class loader {
                             log.info("commit transaction i= " + i);
                             if (em.getTransaction().isActive()) {
                                 try {
+                                    //addAttr(userArr, em);
+                                    //userArr.clear();
                                     em.getTransaction().commit();
                                     if (em1.getTransaction().isActive()) {
                                         em1.getTransaction().commit();
@@ -122,6 +144,7 @@ public class loader {
                             // Получаем ID пользователя
                             TUsersDAO userDAO = new TUsersDAO(em);
                             user = userDAO.getItemByName(user.getUsername(), "TUsers.findByUsername");
+                            //userArr.put(arr[0], user);
                             // Добавляем аттрибуты
                             TUserAttribute attr = new TUserAttribute();
                             attr.setUserId(user);
@@ -139,7 +162,7 @@ public class loader {
                             link.setBrokerUserId(arr[0]);
 
                             em1.merge(link);
-
+                            
                         } catch (Exception e2) {
                             log.log(Priority.ERROR, e2);
                             temp.append("-------------------------------- err_line => ").append(err_line).append(" fileLine => ").append(i).append(" ------------------------------------------\n");
@@ -163,7 +186,7 @@ public class loader {
                         log.error("Ошибка => " + nextString);
                         e1.printStackTrace();
                     }
-
+                    
                 }
                 if (em.getTransaction().isActive()) {
                     em.getTransaction().commit();
@@ -173,7 +196,7 @@ public class loader {
             }
         }
     }
-
+    
     private static String formatPhone(String phone) {
         String[] s2 = phone.split("\\D+");
         StringBuilder phone_temp = new StringBuilder();
