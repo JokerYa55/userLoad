@@ -124,9 +124,9 @@ public class loader {
                             user = userDAO.getItemByName(user.getUsername(), "TUsers.findByUsername");
                             // Добавляем аттрибуты
                             TUserAttribute attr = new TUserAttribute();
-                            attr.setId(user.getId());
+                            attr.setUserId(user);
                             attr.setName("id_app_1");
-                            attr.setValue(user.getId().toString());
+                            attr.setValue(arr[0]);
                             attr.setVisibleFlag(true);
                             em.merge(attr);
                             //log.debug(user);
