@@ -52,6 +52,11 @@ public class loader {
                 long i = 0;
                 long err_line = 0;
                 long commit_count = Long.parseLong(args[2]);
+                String identityProvider = args[3];
+                String storageProviderID = args[4];
+                String realmID = args[5];
+                
+                
                 StringBuilder temp = new StringBuilder();
                 while ((nextString = bReader.readLine()) != null) {
                     try {
@@ -113,12 +118,12 @@ public class loader {
                             TUsersDAO userDAO = new TUsersDAO(em);
                             user = userDAO.getItemByName(user.getUsername(), "TUsers.findByUsername");
                             log.debug(user);
-                            BrokerLinkPK pk = new BrokerLinkPK("oidc_kk", "f:626ec05d-ce21-464f-b0d6-29f811218ea9:" + user.getId().toString());
+                            BrokerLinkPK pk = new BrokerLinkPK(identityProvider, "f:" + storageProviderID + ":" + user.getId().toString());
                             BrokerLink link = new BrokerLink();
                             link.setBrokerUsername(user.getUsername());
-                            link.setStorageProviderId("626ec05d-ce21-464f-b0d6-29f811218ea9");
+                            link.setStorageProviderId(storageProviderID);
                             link.setBrokerLinkPK(pk);
-                            link.setRealmId("videomanager");
+                            link.setRealmId(realmID);
                             link.setBrokerUserId(arr[0]);
 
                             em1.merge(link);
