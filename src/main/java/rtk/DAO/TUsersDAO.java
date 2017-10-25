@@ -31,7 +31,7 @@ public class TUsersDAO implements daoInterface<TUsers, Long> {
     public TUsers getItemByName(String name, String jpqName) {
         TUsers res = null;
         try {
-            System.out.println("id => " + name);            
+            //System.out.println("id => " + name);            
             TypedQuery<TUsers> namedQuery = em.createNamedQuery(jpqName, TUsers.class);
             namedQuery.setParameter("username", name);
             res = namedQuery.getSingleResult();

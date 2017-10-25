@@ -121,7 +121,7 @@ public class loader {
                             // Получаем ID пользователя
                             TUsersDAO userDAO = new TUsersDAO(em);
                             user = userDAO.getItemByName(user.getUsername(), "TUsers.findByUsername");
-                            log.debug(user);
+                            //log.debug(user);
                             BrokerLinkPK pk = new BrokerLinkPK(identityProvider, "f:" + storageProviderID + ":" + user.getId().toString());
                             BrokerLink link = new BrokerLink();
                             link.setBrokerUsername(user.getUsername());
