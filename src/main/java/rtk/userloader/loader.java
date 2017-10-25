@@ -56,6 +56,10 @@ public class loader {
                 String storageProviderID = args[4];
                 String realmID = args[5];
                 
+                log.info("commit_count => " + commit_count);
+                log.info("identityProvider => " + identityProvider);
+                log.info("storageProviderID => " + storageProviderID);
+                log.info("realmID => " + realmID);
                 
                 StringBuilder temp = new StringBuilder();
                 while ((nextString = bReader.readLine()) != null) {
