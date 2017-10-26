@@ -209,81 +209,81 @@ public class loader {
     }
 
     private static void loadAttr() {
-        try {
-            String nextString;
-            long i = 0;
-            long err_line = 0;
-            TUsers user;
-            EntityManager em = Persistence.createEntityManagerFactory("rti_userLoader_JPA").createEntityManager();
-            StringBuilder temp = new StringBuilder();
-
-            try (BufferedReader bReader = new BufferedReader(new InputStreamReader(new FileInputStream(filename_in)))) {
-                BufferedWriter bWriter = new BufferedWriter(new FileWriter(filename_out));
-
-                while ((nextString = bReader.readLine()) != null) {
-                    long rez = (long) i % commit_count;
-                    err_line++;
-                    //rez = (long) Math.floor(i / 5);
-                    if (rez == 0) {
-                        log.info("commit transaction i=>" + i);
-                        if (em.getTransaction().isActive()) {
-                            try {
-                                em.getTransaction().commit();
-                            } catch (Exception e3) {
-                                log.log(Priority.ERROR, e3);
-                                temp.append("-------------------------------- err_line => ").append(err_line).append(" fileLine => ").append(i).append(" ------------------------------------------\n");
-                                bWriter.write(temp.toString() + "\n");
-                                bWriter.flush();
-                                temp = new StringBuilder();
-                                err_line = 0;
-                                if (em.getTransaction().isActive()) {
-                                    em.getTransaction().rollback();
-                                    em.getTransaction().begin();
-                                }
-                                i++;
-                            }
-                        }
-                        err_line = 0;
-                        temp.delete(0, Integer.MAX_VALUE);
-                        em.getTransaction().begin();
-                    }
-                    temp.append(nextString).append("\n");
-                    String[] arr = nextString.split(";", -1);
-                    TUsersDAO userDAO = new TUsersDAO(em);
-                    user = userDAO.getItemByName(arr[3], "TUsers.findByUsername");
-                    // Добавляем аттрибуты
-                    TUserAttribute attr = new TUserAttribute();
-                    attr.setUserId(user);
-                    attr.setName("id_app_1");
-                    attr.setValue(arr[0]);
-                    attr.setVisibleFlag(true);
-                    try {
-                        em.merge(attr);
-                    } catch (Exception e199) {
-                        log.log(Priority.ERROR, e199);
-                        temp.append("-------------------------------- err_line => ").append(err_line).append(" fileLine => ").append(i).append(" ------------------------------------------\n");
-                        bWriter.write(temp.toString() + "\n");
-                        bWriter.flush();
-                        temp = new StringBuilder();
-                        err_line = 0;
-                        if (em.getTransaction().isActive()) {
-                            em.getTransaction().rollback();
-                            em.getTransaction().begin();
-                        }
-                        i++;
-                    }
-                    i++;
-                }
-            } catch (Exception e) {
-                log.log(Priority.ERROR, e);
-            }
-            if (em.getTransaction().isActive()) {
-                em.getTransaction().commit();
-            }
-            em.close();
-        } catch (Exception e99) {
-            log.log(Priority.ERROR, e99);
-        }
+//        try {
+//            String nextString;
+//            long i = 0;
+//            long err_line = 0;
+//            TUsers user;
+//            EntityManager em = Persistence.createEntityManagerFactory("rti_userLoader_JPA").createEntityManager();
+//            StringBuilder temp = new StringBuilder();
+//
+//            try (BufferedReader bReader = new BufferedReader(new InputStreamReader(new FileInputStream(filename_in)))) {
+//                BufferedWriter bWriter = new BufferedWriter(new FileWriter(filename_out));
+//
+//                while ((nextString = bReader.readLine()) != null) {
+//                    long rez = (long) i % commit_count;
+//                    err_line++;
+//                    //rez = (long) Math.floor(i / 5);
+//                    if (rez == 0) {
+//                        log.info("commit transaction i=>" + i);
+//                        if (em.getTransaction().isActive()) {
+//                            try {
+//                                em.getTransaction().commit();
+//                            } catch (Exception e3) {
+//                                log.log(Priority.ERROR, e3);
+//                                temp.append("-------------------------------- err_line => ").append(err_line).append(" fileLine => ").append(i).append(" ------------------------------------------\n");
+//                                bWriter.write(temp.toString() + "\n");
+//                                bWriter.flush();
+//                                temp = new StringBuilder();
+//                                err_line = 0;
+//                                if (em.getTransaction().isActive()) {
+//                                    em.getTransaction().rollback();
+//                                    em.getTransaction().begin();
+//                                }
+//                                i++;
+//                            }
+//                        }
+//                        err_line = 0;
+//                        temp.delete(0, Integer.MAX_VALUE);
+//                        em.getTransaction().begin();
+//                    }
+//                    temp.append(nextString).append("\n");
+//                    String[] arr = nextString.split(";", -1);
+//                    TUsersDAO userDAO = new TUsersDAO(em);
+//                    user = userDAO.getItemByName(arr[3], "TUsers.findByUsername");
+//                    // Добавляем аттрибуты
+//                    TUserAttribute attr = new TUserAttribute();
+//                    attr.setUserId(user);
+//                    attr.setName("id_app_1");
+//                    attr.setValue(arr[0]);
+//                    attr.setVisibleFlag(true);
+//                    try {
+//                        em.merge(attr);
+//                    } catch (Exception e199) {
+//                        log.log(Priority.ERROR, e199);
+//                        temp.append("-------------------------------- err_line => ").append(err_line).append(" fileLine => ").append(i).append(" ------------------------------------------\n");
+//                        bWriter.write(temp.toString() + "\n");
+//                        bWriter.flush();
+//                        temp = new StringBuilder();
+//                        err_line = 0;
+//                        if (em.getTransaction().isActive()) {
+//                            em.getTransaction().rollback();
+//                            em.getTransaction().begin();
+//                        }
+//                        i++;
+//                    }
+//                    i++;
+//                }
+//            } catch (Exception e) {
+//                log.log(Priority.ERROR, e);
+//            }
+//            if (em.getTransaction().isActive()) {
+//                em.getTransaction().commit();
+//            }
+//            em.close();
+//        } catch (Exception e99) {
+//            log.log(Priority.ERROR, e99);
+//        }
     }
 
     private static void loadIdentity() {
