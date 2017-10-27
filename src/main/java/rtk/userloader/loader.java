@@ -18,9 +18,7 @@ import org.apache.log4j.Priority;
 import rtk.bean.TUsers;
 import java.io.*;
 import java.util.Collection;
-import java.util.HashMap;
 import java.util.LinkedList;
-import rtk.DAO.TUsersDAO;
 import rtk.bean.BrokerLink;
 import rtk.bean.BrokerLinkPK;
 import rtk.bean.TUserAttribute;
@@ -75,16 +73,18 @@ public class loader {
             String nextString;
             long i = 0;
             long err_line = 0;
+            long rez = 0;
+            String[] arr ;
             TUsers user;
             EntityManager em = Persistence.createEntityManagerFactory("rti_userLoader_JPA").createEntityManager();
             EntityManager em1 = Persistence.createEntityManagerFactory("rti_userLoader_KK_JPA").createEntityManager();
             StringBuilder temp = new StringBuilder();
-
+            
             try (BufferedReader bReader = new BufferedReader(new InputStreamReader(new FileInputStream(filename_in)))) {
                 BufferedWriter bWriter = new BufferedWriter(new FileWriter(filename_out));
                 while ((nextString = bReader.readLine()) != null) {
                     try {
-                        long rez = (long) i % commit_count;
+                        rez = (long) i % commit_count;
                         err_line++;
                         //rez = (long) Math.floor(i / 5);
                         if (rez == 0) {
@@ -95,6 +95,7 @@ public class loader {
                                     if (em1.getTransaction().isActive()) {
                                         em1.getTransaction().commit();
                                     }
+                                    
                                 } catch (Exception e3) {
                                     log.log(Priority.ERROR, e3);
                                     temp.append("-------------------------------- err_line => ").append(err_line).append(" fileLine => ").append(i).append(" ------------------------------------------\n");
@@ -119,8 +120,9 @@ public class loader {
                             em1.getTransaction().begin();
                         }
                         temp.append(nextString).append("\n");
-                        String[] arr = nextString.split(";", -1);
-                        //log.info(Arrays.toString(arr));
+                        nextString = nextString.replaceAll("\"", "");
+                        arr = nextString.split(";", -1);
+                        // log.info(Arrays.toString(arr));
                         user = new TUsers();
                         user.setUsername(arr[3]);
                         user.setFirstname(arr[4]);
@@ -160,7 +162,6 @@ public class loader {
                             link.setBrokerUserId(arr[0]);
 
                             //log.info("link => " + link);
-
                             em1.persist(link);
                             if (em1.getTransaction().isActive()) {
                                 em1.getTransaction().commit();
