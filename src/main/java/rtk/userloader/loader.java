@@ -17,8 +17,10 @@ import org.apache.log4j.Logger;
 import org.apache.log4j.Priority;
 import rtk.bean.TUsers;
 import java.io.*;
+import java.math.BigInteger;
 import java.util.Collection;
 import java.util.LinkedList;
+import javax.persistence.Query;
 import rtk.bean.BrokerLink;
 import rtk.bean.BrokerLinkPK;
 import rtk.bean.TUserAttribute;
@@ -74,12 +76,47 @@ public class loader {
             long i = 0;
             long err_line = 0;
             long rez = 0;
-            String[] arr ;
+            String[] arr;
             TUsers user;
             EntityManager em = Persistence.createEntityManagerFactory("rti_userLoader_JPA").createEntityManager();
             EntityManager em1 = Persistence.createEntityManagerFactory("rti_userLoader_KK_JPA").createEntityManager();
             StringBuilder temp = new StringBuilder();
-            
+
+            Query query_user = em.createNativeQuery("INSERT INTO public.t_users(\n"
+                    + "             id, "
+                    + "             description, "
+                    + "             email, "
+                    + "             enabled, "
+                    + "             firstname, "
+                    + "             hash_type, \n"
+                    + "             lastname, "
+                    + "             password, "
+                    + "             phone, "
+                    + "             salt, "
+                    + "             thirdname,  "
+                    + "             user_region, \n"
+                    + "             user_status, "
+                    + "             username)\n"
+                    + "    VALUES (nextval('t_users_id_seq'), ?, ?, ?, ?, ?, ?, \n"
+                    + "            ?, ?, ?, ?, ?, ?, ?) returning id");
+
+            Query query_attr = em.createNativeQuery("INSERT INTO public.t_user_attribute(\n"
+                    + "             id, "
+                    + "             name, "
+                    + "             value, "
+                    + "             visible_flag, "
+                    + "             user_id)\n"
+                    + "    VALUES (nextval('t_user_attribute_id_seq'), ?, ?, ?, ?) returning id");
+            Query query_broker = em1.createNativeQuery("INSERT INTO public.broker_link(\n"
+                    + "             identity_provider, "
+                    + "             storage_provider_id, "
+                    + "             realm_id, "
+                    + "             broker_user_id, \n"
+                    + "             broker_username, "
+                    + "             user_id)\n"
+                    + "    VALUES (?, ?, ?, \n"
+                    + "            ?, ?, ?) returning identity_provider");
+
             try (BufferedReader bReader = new BufferedReader(new InputStreamReader(new FileInputStream(filename_in)))) {
                 BufferedWriter bWriter = new BufferedWriter(new FileWriter(filename_out));
                 while ((nextString = bReader.readLine()) != null) {
@@ -95,7 +132,7 @@ public class loader {
                                     if (em1.getTransaction().isActive()) {
                                         em1.getTransaction().commit();
                                     }
-                                    
+
                                 } catch (Exception e3) {
                                     log.log(Priority.ERROR, e3);
                                     temp.append("-------------------------------- err_line => ").append(err_line).append(" fileLine => ").append(i).append(" ------------------------------------------\n");
@@ -123,37 +160,52 @@ public class loader {
                         nextString = nextString.replaceAll("\"", "");
                         arr = nextString.split(";", -1);
                         // log.info(Arrays.toString(arr));
-                        user = new TUsers();
-                        user.setUsername(arr[3]);
-                        user.setFirstname(arr[4]);
-                        user.setLastname(arr[5]);
-                        user.setThirdname(arr[6]);
-                        user.setPassword(arr[7]);
-                        user.setSalt(arr[8]);
-                        user.setPhone(formatPhone(arr[2]));
-                        user.setEmail(arr[1]);
-                        user.setCreateDate(new Date());
-                        user.setUserRegion(Integer.parseInt(arr[9]));
-                        user.setEnabled(true);
-                        user.setHashType("sha1");
-                        user.setDescription(arr[0]);
-
-                        TUserAttribute attr = new TUserAttribute();
-                        attr.setUserId(user);
-                        attr.setName("id_app_1");
-                        attr.setValue(arr[0]);
-                        attr.setVisibleFlag(true);
-
-                        Collection<TUserAttribute> attrList = new LinkedList();
-                        attrList.add(attr);
-
-                        user.setTUserAttributeCollection(attrList);
 
                         try {
-                            em.persist(user);
-                            // Добавляем ссылку на провайдер
+                            //em.persist(user);
 
-                            BrokerLinkPK pk = new BrokerLinkPK(identityProvider, "f:" + storageProviderID + ":" + user.getId().toString());
+                            query_user.setParameter(1, "<ELK_ADD>");
+                            query_user.setParameter(2, arr[1]);
+                            query_user.setParameter(3, true);
+                            query_user.setParameter(4, arr[4]);
+                            query_user.setParameter(5, "sha1");
+                            query_user.setParameter(6, arr[5]);
+                            query_user.setParameter(7, arr[7]);
+                            query_user.setParameter(8, formatPhone(arr[2]));
+                            query_user.setParameter(9, arr[8]);
+                            query_user.setParameter(10, arr[6]);
+                            query_user.setParameter(11, Integer.parseInt(arr[9]));
+                            query_user.setParameter(12, 0);
+                            query_user.setParameter(13, arr[3]);
+                            Long user_id = (Long) query_user.getSingleResult();
+
+                            query_attr.setParameter(1, "id_app_1");
+                            query_attr.setParameter(2, arr[0]);
+                            query_attr.setParameter(3, true);
+                            query_attr.setParameter(4, user_id);
+
+                            Long attr_id = (Long) query_attr.getSingleResult();
+                            /*
+                            identity_provider, "
+                    + "             storage_provider_id, "
+                    + "             realm_id, "
+                    + "             broker_user_id, \n"
+                    + "             broker_username, "
+                    + "             user_id
+                            */
+                            
+                            query_broker.setParameter(1, identityProvider);
+                            query_broker.setParameter(2, storageProviderID);
+                            query_broker.setParameter(3, realmID);
+                            query_broker.setParameter(4, arr[0]);
+                            query_broker.setParameter(5, arr[3]);
+                            query_broker.setParameter(6, "f:" + storageProviderID + ":" + user_id);
+                            
+                            String broker_id = (String) query_broker.getSingleResult();
+                            
+                            //Long user_id = biid.longValue();
+                            // Добавляем ссылку на провайдер
+                            /*BrokerLinkPK pk = new BrokerLinkPK(identityProvider, "f:" + storageProviderID + ":" + user.getId().toString());
                             BrokerLink link = new BrokerLink();
                             link.setBrokerUsername(user.getUsername());
                             link.setStorageProviderId(storageProviderID);
@@ -163,6 +215,7 @@ public class loader {
 
                             //log.info("link => " + link);
                             em1.persist(link);
+                             */
                             if (em1.getTransaction().isActive()) {
                                 em1.getTransaction().commit();
                             }
